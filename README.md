@@ -7,7 +7,7 @@ como complemento al curso realizado en Udemy.
 
 Estos ejercicios están incluidos en la carpeta  /tests
 
-fran-byte.
+fran-byte
 
 
 
@@ -20,4 +20,4 @@ This repository is based on a series of exercises in Python 3
 
 These exercises are included in the folder / tests
 
-fran-byte.
+fran-byte
