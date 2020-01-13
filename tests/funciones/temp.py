@@ -12,23 +12,23 @@ def Tmedia(Tmaxima,Tminima): # La función donde haremos los calculos de la medi
     SumaTmax = 0 # Definiremos la variable donde iremos incrementando y sumando uno a uno toda la lista de Tmaxima
     SumaTmin = 0 # Definiremos la variable donde iremos incrementando y sumando uno a uno toda la lista de Tminima
     for i,a in zip(Tmaxima,Tminima): # Iterando en paralelo y Sumando las listas a la vez y cada una por separado con zip
-        SumaTmax += i
-        SumaTmin += a
+        SumaTmax += i # Vamos sumando y dejandolo en SumaTmax
+        SumaTmin += a # Vamos sumando y dejandolo en SumaTmax
 
-    return ((SumaTmax/dias+SumaTmin/dias)/2)
+    return ((SumaTmax/dias+SumaTmin/dias)/2) # Procedemos a hacer la media y la retornamos
 
 
-while True:
+while True: # Creamos este bucle infinito para contener el try y except
     try:
         dias = int(input("Introduce el nº de días: "))
-        if dias <=0:
+        if dias <=0: # Lo condicionamos solo a números enteros positivos
             print("Por favor números positivos")
         else:
-            break
+            break # Si es correcto, rompemos el bucle y continuamos
     except:
         print("Introduce números enteros positivos")
 
-for i in range(dias):
+for i in range(dias): # vamos introduciento las temperaturas máxima y mínima, tantas veces como días introducidos
     print("Día: ",i+1)
     Tma = float(input("T. máxima: "))
     Tmaxima.append(Tma)
