@@ -22,7 +22,7 @@ class Punto:
     def __str__(self):
         return '({},{})'.format(self.x, self.y)
 
-    def vector(self,v): # este método revive 2 puntos, el propio objeto (self) y el punto en "v"
+    def vector(self,v): # este método recibe 2 puntos, el propio objeto (self) y el punto en "v"
                         # El resultado de vector AB = (x2-x1, y2-y1)
 
         if v.x > self.x:    # Condicionamos para que la resta siempre sea al mayor
