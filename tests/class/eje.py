@@ -70,11 +70,11 @@ class Punto:
 
 p = Punto(int(input("Punto P(X): ")),int(input("Punto P(Y): "))) # creamos el primer Pto
 
-print(p.cuadrante()) # Llevamos nuestro Objeto (Pto creado p) al metodo cuadrante
+p.cuadrante() # Llevamos nuestro Objeto (Pto creado p) al metodo cuadrante
 
 p1 = Punto(int(input("Punto P1(X): ")),int(input("Punto P1(Y): "))) # creamos el segundo Pto.
 
-print(p1.cuadrante()) # Llevamos nuestro Objeto (Pto creado p1) al metodo cuadrante
+p1.cuadrante() # Llevamos nuestro Objeto (Pto creado p1) al metodo cuadrante
 
 p.vector(p1) # Llevamos a nuestro método(vector) del pto p el p1
 p.distancia(p1)  # Llevamos a nuestro método(distancia) del pto p el p1
