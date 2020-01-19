@@ -1,7 +1,7 @@
-#### **Métodos (o funciones) para trabajar con las LISTAS en Python,**
+### **Métodos (o funciones) para trabajar con las LISTAS en Python**
 
 
-**lista** = list() 		 # Declaración de una lista
+##### lista = **list()** 		 # Declaración de una lista
 
 
 **len**(lista) 		# Cuenta el número de elementos de la lista
@@ -34,5 +34,5 @@ lista.**sort**(cmp=None, key=None, reverse=False) # Ordena los ítems de la list
 lista.**reverse**()		 # Invierte los elementos de la lista.
 
 
-listaCopia = lista**[:]** # Devuelve una copia de la lista (lista.copy())
+listaCopia = lista[:] # Devuelve una copia de la lista (lista.copy())
 
