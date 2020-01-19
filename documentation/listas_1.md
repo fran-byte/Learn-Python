@@ -2,6 +2,7 @@
 
 
 lista = **list()** 		 # Declaración de una lista
+<p style="color:red;">Este es un párrafo en color rojo.</p>
 
 
 **len**(lista) 		# Cuenta el número de elementos de la lista
