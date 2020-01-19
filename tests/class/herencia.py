@@ -7,8 +7,9 @@
 # Los Adornos no tiene ningún atributo extra
 # Los Alimentos tienen Productor y Distribuidor
 # Los Libros tienen isbn y Autor
-# Crea la clase y subclases correspondientes que sean herderas de la primera.
-# Crea otra clase llamada Teclado que para llamar a cada uno de las sub clases
+# Crea la clase y subclases correspondientes que sean herederas de la primera
+# Crea otra clase llamada Teclado para llamar a cada uno de las sub clases y
+# poder introducir los atributos correspondientes
 
 class Producto: # Creando la Super-Clase con atributos comunes a todos los productos
     def __init__(self,referencia,nombre,pvp,descripcion):
