@@ -53,7 +53,7 @@ class Libro(Producto): # Creando una Sub-Clase con dos atributos isbn y autor + 
 
 class Teclado:
     def __init__(self):
-        self.vacio = vacio
+        pass
 
     def condicion(self):
 
