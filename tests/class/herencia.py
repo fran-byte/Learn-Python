@@ -58,22 +58,39 @@ class Teclado:
     def condicion(self):
 
         if (self)=="1":
-            tecladoR,tecladoN,tecladoP,tecladoD = input("ADORNO: (Referencia, Nombre, PVP, Descripción) ").split()
-            a = Adorno(tecladoR, tecladoN, tecladoP, tecladoD)
-            return print(a)
+            while True:
+
+                try:
+
+                    tecladoR,tecladoN,tecladoP,tecladoD = input("ADORNO: (Referencia, Nombre, PVP, Descripción) ").split()
+                    a = Adorno(tecladoR, tecladoN, tecladoP, tecladoD)
+                    return print(a)
+                except:
+                    print("Intentalo de nuevo recuerda en dejar un espacio en blanco entre cada dato")
         elif (self)=="2":
-            tecladoR,tecladoN,tecladoP,tecladoD,tecladoISBN,tecladoA = input("LIBRO: (Referencia, Nombre, PVP, Descripción, ISBN, AUTOR) ").split()
-            a = Libro(tecladoR, tecladoN, tecladoP, tecladoD)
-            a.isbn = tecladoISBN
-            a.autor = tecladoA
-            return print(a)
+            while True:
+
+                try:
+                    tecladoR,tecladoN,tecladoP,tecladoD,tecladoISBN,tecladoA = input("LIBRO: (Referencia, Nombre, PVP, Descripción, ISBN, AUTOR) ").split()
+                    a = Libro(tecladoR, tecladoN, tecladoP, tecladoD)
+                    a.isbn = tecladoISBN
+                    a.autor = tecladoA
+                    return print(a)
+                except:
+                    print("Intentalo de nuevo recuerda en dejar un espacio en blanco entre cada dato")
 
         elif (self)=="3":
-            tecladoR,tecladoN,tecladoP,tecladoD,tecladoPro,tecladoD = input("ALIMENTO: (Referencia, Nombre, PVP, Descripción, Productor, Distribuidor) ").split()
-            a = Alimento(tecladoR, tecladoN, tecladoP, tecladoD)
-            a.productor = tecladoPro
-            a.distribuidor = tecladoD
-            return print(a)
+            while True:
+
+                try:
+                    tecladoR,tecladoN,tecladoP,tecladoD,tecladoPro,tecladoD = input("ALIMENTO: (Referencia, Nombre, PVP, Descripción, Productor, Distribuidor) ").split()
+                    a = Alimento(tecladoR, tecladoN, tecladoP, tecladoD)
+                    a.productor = tecladoPro
+                    a.distribuidor = tecladoD
+                    return print(a)
+                except:
+                    print("Intentalo de nuevo recuerda en dejar un espacio en blanco entre cada dato")
+
 
         else:
             return print("\nOpción Erronea !!\n")
