@@ -1,8 +1,8 @@
-##  <span style="color:red">Métodos (o funciones) para trabajar con las LISTAS en Python</span>
+##  Métodos (o funciones) para trabajar con las LISTAS en Python
 
 
 lista = **list()** 		 # Declaración de una lista
-<p style="color:red;">Este es un párrafo en color rojo.</p>
+
 
 
 **len**(lista) 		# Cuenta el número de elementos de la lista
