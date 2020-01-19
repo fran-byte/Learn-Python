@@ -52,12 +52,11 @@ class Libro(Producto): # Creando una Sub-Clase con dos atributos isbn y autor + 
                f"AUTOR\t\t {self.autor}\n"
 
 class Teclado:
-    def __init__(self):
-        pass
+    def __init__(self,condicion):
+        self.condicion = condicion
 
-    def condicion(self):
 
-        if (self)=="1":
+        if (condicion)=="1":
             while True:
 
                 try:
@@ -103,6 +102,6 @@ while True:
     opcion = input("Opción: ")
 
     t = Teclado
-    t.condicion(opcion)
+    t(opcion)
 
 
