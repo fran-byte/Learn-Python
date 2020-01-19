@@ -66,7 +66,7 @@ class Teclado:
                     a = Adorno(tecladoR, tecladoN, tecladoP, tecladoD)
                     return print(a)
                 except:
-                    print("Intentalo de nuevo recuerda en dejar un espacio en blanco entre cada dato")
+                    print("Intentalo de nuevo recuerda dejar un espacio en blanco entre cada dato")
         elif (self)=="2":
             while True:
 
@@ -77,7 +77,7 @@ class Teclado:
                     a.autor = tecladoA
                     return print(a)
                 except:
-                    print("Intentalo de nuevo recuerda en dejar un espacio en blanco entre cada dato")
+                    print("Intentalo de nuevo recuerda dejar un espacio en blanco entre cada dato")
 
         elif (self)=="3":
             while True:
@@ -89,7 +89,7 @@ class Teclado:
                     a.distribuidor = tecladoD
                     return print(a)
                 except:
-                    print("Intentalo de nuevo recuerda en dejar un espacio en blanco entre cada dato")
+                    print("Intentalo de nuevo recuerda dejar un espacio en blanco entre cada dato")
 
 
         else:
