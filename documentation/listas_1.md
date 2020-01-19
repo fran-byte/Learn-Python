@@ -4,7 +4,6 @@
 lista = **list()** 		 # Declaración de una lista
 
 
-
 **len**(lista) 		# Cuenta el número de elementos de la lista
 
 
