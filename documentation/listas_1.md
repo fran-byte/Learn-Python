@@ -1,10 +1,10 @@
-### **Métodos (o funciones) para trabajar con las LISTAS en Python**
+## **Métodos (o funciones) para trabajar con las LISTAS en Python**
 
 
-##### lista = **list()** 		 # Declaración de una lista
+#### lista = **list()** 		 # Declaración de una lista
 
 
-**len**(lista) 		# Cuenta el número de elementos de la lista
+#### **len**(lista) 		# Cuenta el número de elementos de la lista
 
 
 lista.**insert**(pos, x)    # Agrega un elemento (x) al final de la lista.
