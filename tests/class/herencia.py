@@ -9,7 +9,7 @@
 # Los Libros tienen isbn y Autor
 # Crea la clase y subclases correspondientes que sean herederas de la primera
 # Crea otra clase llamada Teclado para llamar a cada uno de las sub clases y
-# poder introducir los atributos correspondientes
+# poder introducir los atributos correspondientes, para posteriormente imprimirlos
 
 class Producto: # Creando la Super-Clase con atributos comunes a todos los productos
     def __init__(self,referencia,nombre,pvp,descripcion):
@@ -53,9 +53,7 @@ class Libro(Producto): # Creando una Sub-Clase con dos atributos isbn y autor + 
 
 class Teclado:
     def __init__(self):
-        self.adorno = adorno
-        self.libro = libro
-        self.alimento = alimento
+        self.vacio = vacio
 
     def condicion(self):
 
