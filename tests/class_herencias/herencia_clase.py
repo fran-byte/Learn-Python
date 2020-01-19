@@ -66,7 +66,8 @@ class Teclado:
                     return print(a)
                 except:
                     print("Intentalo de nuevo recuerda dejar un espacio en blanco entre cada dato")
-        elif (self)=="2":
+
+        elif (condicion)=="2":
             while True:
 
                 try:
@@ -78,7 +79,7 @@ class Teclado:
                 except:
                     print("Intentalo de nuevo recuerda dejar un espacio en blanco entre cada dato")
 
-        elif (self)=="3":
+        elif (condicion)=="3":
             while True:
 
                 try:
@@ -99,9 +100,5 @@ while True:
     1-Adornos
     2-Libros
     3-Alimetos""")
-    opcion = input("Opción: ")
-
-    t = Teclado
-    t(opcion)
-
+    Teclado(input(">>  "))
 
