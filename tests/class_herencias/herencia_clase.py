@@ -18,7 +18,7 @@ class Producto: # Creando la Super-Clase con atributos comunes a todos los produ
         self.pvp = pvp
         self.descripcion = descripcion
 
-    def __str__(self):
+    def __str__(self): # Método de formateo de string de Producto
         return f"REFERENCIA\t {self.referencia}\n" \
                f"NOMBRE\t\t {self.nombre}\n" \
                f"PVP\t\t\t {self.pvp}\n" \
@@ -30,7 +30,7 @@ class Alimento(Producto): # Creando una Sub-Clase con dos atributos productor y 
     productor = ""
     distribuidor = ""
 
-    def __str__(self):
+    def __str__(self): # Método de formateo de string de Alimento
         return f"REFERENCIA\t {self.referencia}\n" \
                f"NOMBRE\t\t {self.nombre}\n" \
                f"PVP\t\t\t {self.pvp}\n" \
@@ -43,7 +43,7 @@ class Libro(Producto): # Creando una Sub-Clase con dos atributos isbn y autor + 
     isbn = ""
     autor = ""
 
-    def __str__(self):
+    def __str__(self): # Método de formateo de string de Libro
         return f"REFERENCIA\t {self.referencia}\n" \
                f"NOMBRE\t\t {self.nombre}\n" \
                f"PVP\t\t\t {self.pvp}\n" \
@@ -52,25 +52,24 @@ class Libro(Producto): # Creando una Sub-Clase con dos atributos isbn y autor + 
                f"AUTOR\t\t {self.autor}\n"
 
 class Teclado:
-    def __init__(self,condicion):
-        self.condicion = condicion
+    def __init__(self,opcion):
+        self.opcion = opcion
 
-
-        if (condicion)=="1":
+        if (opcion)=="1":
             while True:
-
                 try:
-
+                    # Vamos introducir los atributos de Adorno
                     tecladoR,tecladoN,tecladoP,tecladoD = input("ADORNO: (Referencia, Nombre, PVP, Descripción) ").split()
                     a = Adorno(tecladoR, tecladoN, tecladoP, tecladoD)
                     return print(a)
                 except:
                     print("Intentalo de nuevo recuerda dejar un espacio en blanco entre cada dato")
 
-        elif (condicion)=="2":
+        elif (opcion)=="2":
             while True:
 
                 try:
+                    # Vamos introducir los atributos de Libro
                     tecladoR,tecladoN,tecladoP,tecladoD,tecladoISBN,tecladoA = input("LIBRO: (Referencia, Nombre, PVP, Descripción, ISBN, AUTOR) ").split()
                     a = Libro(tecladoR, tecladoN, tecladoP, tecladoD)
                     a.isbn = tecladoISBN
@@ -79,10 +78,11 @@ class Teclado:
                 except:
                     print("Intentalo de nuevo recuerda dejar un espacio en blanco entre cada dato")
 
-        elif (condicion)=="3":
+        elif (opcion)=="3":
             while True:
 
                 try:
+                    # Vamos introducir los atributos de Alimento
                     tecladoR,tecladoN,tecladoP,tecladoD,tecladoPro,tecladoD = input("ALIMENTO: (Referencia, Nombre, PVP, Descripción, Productor, Distribuidor) ").split()
                     a = Alimento(tecladoR, tecladoN, tecladoP, tecladoD)
                     a.productor = tecladoPro
@@ -90,7 +90,8 @@ class Teclado:
                     return print(a)
                 except:
                     print("Intentalo de nuevo recuerda dejar un espacio en blanco entre cada dato")
-
+        elif (opcion) == "4":
+            exit()
 
         else:
             return print("\nOpción Erronea !!\n")
@@ -99,6 +100,7 @@ while True:
     print("""Qué datos desea introducir
     1-Adornos
     2-Libros
-    3-Alimetos""")
+    3-Alimetos
+    4-Salir del Programa""")
     Teclado(input(">>  "))
 
