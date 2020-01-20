@@ -1,4 +1,4 @@
-->:arrow_double_up: [**Home**](../README.md)->
+-> [**Home**](../README.md) ->
 
 
 # MATEMÁTICAS
