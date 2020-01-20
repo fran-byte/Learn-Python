@@ -1,8 +1,6 @@
 _[< Home >](../README.md)_
-# Documentación Python 3 <img src="../mdArchives/py.png"/>
+# Documentación Python 3 <img src="../mdArchives/py.png"/> MATEMÁTICAS
 
-
-# MATEMÁTICAS
 
 ## TIPOS BOOLEANOS
 
