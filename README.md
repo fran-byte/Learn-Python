@@ -14,7 +14,7 @@ _Único autor del repositorio_
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo Licencia MIT
 
 ---
 
@@ -34,7 +34,7 @@ _Unique author of the repository_
 
 ## License 📄
 
-This project is licensed under the (Tu Licencia) - see file [LICENSE.md](LICENSE.md) for more detail
+This project is under the MIT License
 
 
 
