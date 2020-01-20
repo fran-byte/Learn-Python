@@ -1,6 +1,6 @@
-~~~
-:arrow_double_up: [**Home**](../README.md)
-~~~
+
+:arrow_double_up: [**Home**](../README.md){ float:right; }
+
 # MATEMÁTICAS
 
 ## TIPOS BOOLEANOS
