@@ -1,7 +1,7 @@
 _[< Home >](../README.md)_
 
 
->#  <img src="../mdArchives/py.png"/> _< MATEMÁTICAS >_ <img src="../mdArchives/py.png"/>
+ ´< MATEMÁTICAS >
 
 ## TIPOS BOOLEANOS
 
