@@ -1,4 +1,5 @@
-# MATEMÁTICAS ----- [- Inicio](../README.md)
+[_volver a página de_ **INICIO**](../README.md)
+# MATEMÁTICAS
 
 ## TIPOS BOOLEANOS
 
