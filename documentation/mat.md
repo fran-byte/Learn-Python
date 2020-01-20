@@ -1,6 +1,6 @@
-## MATEMÁTICAS
+# MATEMÁTICAS
 
-### Tipos booleanos
+## Tipos booleanos
 
 **OPERADORES**
 
