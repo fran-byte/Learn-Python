@@ -1,4 +1,4 @@
-<div class=pull-left>
+<div class=pull-right>
 :arrow_double_up: [**Home**](../README.md)
 </div>
 
