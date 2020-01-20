@@ -11,7 +11,6 @@ Este repositorio pretende ser una `introdución a Python 3` basada en ejercicios
 :open_file_folder: [/tests](/tests)
 ## Documentación
 :book: [Material didáctico](/documentation/indice.md)
-:open_file_folder: [/tests](/documentation)
 
 Este apartado contiene la documentación necesaria para poder seguir todos los ejercicios y ejemplos dispuestos en el repositorio.
 ## Licencia
