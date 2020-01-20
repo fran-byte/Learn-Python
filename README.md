@@ -33,7 +33,7 @@ _ Unique author of the repository_
 
 ## License 📄
 
-This project is licensed under the (Tu Licencia) - see file [LICENSE.md](LICENSE.md) para detalles
+This project is licensed under the (Tu Licencia) - see file [LICENSE.md](LICENSE.md) for more detail
 
 
 
