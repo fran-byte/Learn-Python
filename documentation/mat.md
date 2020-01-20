@@ -2,30 +2,30 @@
 
 ## TIPOS BOOLEANOS
 
-**Tipos booleanos:** True y False
+**Tipos Booleanos:** True y False
 
 La variable booleana sólo puede tomar dos posibles estados o valores: **True** (verdadero) o **False** (falso).
 
-+ OPERADORES
+**Operadores**
 
 | Suma | Resta | Multiplicación | División | Div. Enteros | Módulo | Potencia |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | + | - | * | / | // | % | ** |
 ---
-+ OPERADORES en ASIGNACIÓN
+**Operadores en Asignación**
 
 | Suma | Resta | Multiplicación | División | Módulo | Potencia |
 | :--: | :--: | :--: | :--: | :--: | :--: |
 | a+=2 | a-=2 | a*=2 | a/=2 | a%=2 | a**=5 |
-| a=a+2 | a=a-2 | a=ax2 | a=a/2 | a=a%2 | a=a<sup>2</sup> |
+| a= a+2 | a= a-2 | a= ax2 | a= a/2 | a= a%2 | a= a<sup>2</sup> |
 ---
-+ COMPARADORES
+**Comparadores**
 
 | Menor | Mayor | Menor o Igual | Mayor o Igual | Igual | Distinto | 
 | :--: | :--: | :--: | :--: | :--: | :--: |
 | < | > | <= | >= | == | != |
 ---
-+ OPERADORES LÓGICOS
+**Operadores Lógicos**
 
 | Conjunción | Disyunción | Negación | 
 | :--: | :--: | :--: |
