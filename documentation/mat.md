@@ -1,4 +1,4 @@
--> [**Home**](../README.md) ->
+_[< Home >](../README.md)_
 
 
 # MATEMÁTICAS
