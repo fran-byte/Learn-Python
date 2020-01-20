@@ -1,6 +1,6 @@
 _[< Home >](../README.md)_
 
-# < MATEMÁTICAS >
+# _`MATEMÁTICAS`_ 
 
 ## TIPOS BOOLEANOS
 
