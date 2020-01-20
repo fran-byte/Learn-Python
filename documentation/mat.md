@@ -1,6 +1,5 @@
-<div style="text-align: right">
-:arrow_double_up: [**Home**](../README.md)
-</div>
+->:arrow_double_up: [**Home**](../README.md)->
+
 
 # MATEMÁTICAS
 
