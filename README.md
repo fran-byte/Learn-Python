@@ -1,5 +1,5 @@
 # Ejercicios de apoyo para curso en Python 3
-## Bienvenido al Repositorio 🚀
+## Bienvenido al Repositorio
 ![](mdArchives/p.png)
 
 _Este repositorio se basa en una serie de ejercicios en Python 3
