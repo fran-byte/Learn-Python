@@ -4,6 +4,8 @@
 
 **Tipos booleanos:** True y False
 
+La variable booleana sólo puede tomar dos posibles estados o valores: **True** (verdadero) o **False** (falso).
+
 + OPERADORES
 
 | Suma | Resta | Multiplicación | División | Div. Enteros | Módulo | Potencia |
