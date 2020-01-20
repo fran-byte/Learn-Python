@@ -1,8 +1,9 @@
 _[< Home >](../README.md)_
 
 
- ´< MATEMÁTICAS >
-
+´´´
+ < MATEMÁTICAS >
+´´´
 ## TIPOS BOOLEANOS
 
 ## Tipos Booleanos: True y False
