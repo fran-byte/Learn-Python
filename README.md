@@ -27,7 +27,7 @@ _These exercises are included in the folder / tests_
 
 ## Author ✒️
 
-_ Unique author of the repository_
+_Unique author of the repository_
 
 * **fran-byte** -
 
