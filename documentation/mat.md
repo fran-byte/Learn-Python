@@ -14,7 +14,7 @@
 + OPERADORES en ASIGNACIÓN
 
 | Suma | Resta | Multiplicación | División | Módulo | Potencia |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| :--: | :--: | :--: | :--: | :--: | :--: |
 | a+=2 | a-=2 | a*=2 | a/=2 | a%=2 | a**=5 |
 
 
