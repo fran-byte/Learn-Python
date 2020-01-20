@@ -6,7 +6,7 @@ como complemento al curso realizado en Udemy.
 ## Autor ✒️
 * **fran-byte** -
 ## Ejercicios
-[/tests](/tests)
+:open_file_folder:[/tests](/tests)
 ## Temas
 [- Matemáticas](/documentation/mat.md)
 [- Matemáticas](/documentation/mat.md)
