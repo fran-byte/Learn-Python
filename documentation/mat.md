@@ -1,4 +1,4 @@
-:arrow_double_up: [**HOME**](../README.md)
+:arrow_double_up: [**Home**](../README.md)
 # MATEMÁTICAS
 
 ## TIPOS BOOLEANOS
