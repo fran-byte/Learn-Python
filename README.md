@@ -16,7 +16,7 @@ _Único autor del repositorio_
 
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
-
+---
 
 # Support exercises for course in Python 3
 ## Welcome to the repository 🚀
