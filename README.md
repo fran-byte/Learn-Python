@@ -1,4 +1,4 @@
-# Ejercicios de apoyo para curso en Python 3 <img src="mdArchives/p.png" width="100" height="100"/>
+# Ejercicios de apoyo para curso en Python 3 <img src="mdArchives/p.png"/>
 ## Bienvenido al Repositorio
 
 
