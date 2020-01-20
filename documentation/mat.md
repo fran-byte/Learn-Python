@@ -1,5 +1,5 @@
 _[< Home >](../README.md)_
-# Documentación Python 3 <img src="../mdArchives/py.png"/> MATEMÁTICAS
+# <img src="mdArchives/py.png"/> Documentación Python 3 <img src="../mdArchives/py.png"/> MATEMÁTICAS <img src="mdArchives/py.png"/>
 
 
 ## TIPOS BOOLEANOS
