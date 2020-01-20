@@ -7,4 +7,4 @@ Escribe un programa que muestre por pantalla el texto `Hello Word!`
 
 `print("Hello Word!")`
 
-`Hello Word!`
+Hello Word!
