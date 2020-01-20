@@ -1,4 +1,6 @@
 ## MATEMÁTICAS
 **OPERADORES**
 
-Suma + | Resta - | Multiplicación | División | División | Módulo | Potencia |
+Suma | Resta | Multiplicación | División | Div. Enteros | Módulo | Potencia |
+| -- | -- | -- | -- | -- | -- | -- |
+| + | - | * | / | // | % | ** |
