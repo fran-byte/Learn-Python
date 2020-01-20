@@ -1,6 +1,6 @@
 _[< Home >](../README.md)_
 
-# <img src="../mdArchives/py.png"/> Doc Py3  _< MATEMÁTICAS >_ <img src="../mdArchives/py.png"/>
+# <code><img src="../mdArchives/py.png"/> Doc Py3  _< MATEMÁTICAS >_ <img src="../mdArchives/py.png"/>
 
 ## TIPOS BOOLEANOS
 
@@ -18,7 +18,7 @@ La variable booleana sólo puede tomar dos posibles estados o valores: **True** 
 
 | Suma | Resta | Multiplicación | División | Módulo | Potencia |
 | :--: | :--: | :--: | :--: | :--: | :--: |
-| a+=2 | a-=2 | a*=2 | a/=2 | a%=2 | a**=5 |
+| a+=2 | a-=2 | a*=2 | a/=2 | a%=2 | a**=2 |
 | a= a+2 | a= a-2 | a= ax2 | a= a/2 | a= a%2 | a= a<sup>2</sup> |
 ---
 ## Comparadores
