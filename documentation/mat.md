@@ -17,6 +17,7 @@ La variable booleana sólo puede tomar dos posibles estados o valores: **True** 
 | Suma | Resta | Multiplicación | División | Módulo | Potencia |
 | :--: | :--: | :--: | :--: | :--: | :--: |
 | a+=2 | a-=2 | a*=2 | a/=2 | a%=2 | a**=5 |
+a+=2 es igual a=a+2
 ---
 + COMPARADORES
 
