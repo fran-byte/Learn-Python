@@ -1,7 +1,8 @@
 _[< Home >](../README.md)_
-~~~~~~~~~~~~~~~~~~~~~
+
 # <img src="../mdArchives/py.png"/> Doc Py3  _< MATEMÁTICAS >_ <img src="../mdArchives/py.png"/>
-~~~~~~~~~~~~~~~~~~~~~
+Este es un párrafo en color rojo.
+{: style="color:red;" }
 
 ## TIPOS BOOLEANOS
 
