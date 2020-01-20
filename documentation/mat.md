@@ -2,7 +2,7 @@ _[< Home >](../README.md)_
 
 # <img src="../mdArchives/py.png"/> Doc Py3  _< MATEMÁTICAS >_ <img src="../mdArchives/py.png"/>
 
-## !!! done TIPOS BOOLEANOS
+## TIPOS BOOLEANOS
 
 ## Tipos Booleanos: True y False
 
