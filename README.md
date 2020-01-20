@@ -1,7 +1,7 @@
 # <img src="mdArchives/py.png"/> Python 3 <img src="mdArchives/py.png"/>
 ## Ejercicios y Material Didáctico
 
-Este repositorio pretende ser una introdución a Python 3, y se basa en una serie de ejercicios realizados con su documentación de apoyo.
+Este repositorio pretende ser una introdución a Python 3 basadose en una serie de ejercicios con su documentación de apoyo.
 ## Autor ✒️
 * **fran-byte** -
 ## Ejercicios
