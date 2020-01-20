@@ -1,4 +1,4 @@
-# Ejercicios de apoyo para curso en Python 3 <img src="mdArchives/py.png"/>
+# <img src="mdArchives/py.png"/>Ejercicios de apoyo para curso en Python 3 <img src="mdArchives/py.png"/>
 ## Bienvenido al Repositorio
 
 Este repositorio se basa en una serie de ejercicios en Python 3
