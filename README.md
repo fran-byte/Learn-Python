@@ -3,6 +3,8 @@
 
 Este repositorio pretende ser una introdución a Python 3 para ello me he basado en una serie de ejercicios y su correspondiente documentación de apoyo.
 ## Autor ✒️
+<img src="mdArchives/logo.png"/>
+
 * **fran-byte** -
 ## Ejercicios
 :open_file_folder: [/tests](/tests)
