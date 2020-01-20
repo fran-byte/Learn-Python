@@ -8,7 +8,7 @@
 _Este repositorio se basa en una serie de ejercicios en Python 3
 como complemento al curso realizado en Udemy._
 
-##### _Estos ejercicios están incluidos en la carpeta  [/tests](/tests)_
+_Estos ejercicios están incluidos en la carpeta  [/tests](/tests)_
 
 ## Autor ✒️
 
