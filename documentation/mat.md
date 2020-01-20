@@ -1,6 +1,6 @@
-_[< Home >](../README.md)_
+_[< Home >](../README.md)_ _[< Indice >](indice.md)_
 
-# _****`MATEMÁTICAS`****_ 
+# _`MATEMÁTICAS`_
 
 ## TIPOS BOOLEANOS
 
