@@ -10,11 +10,9 @@ _Estos ejercicios están incluidos en la carpeta:  [/tests](/tests)_
 
 ## Autor ✒️
 
-
 * **fran-byte** -
 
 ## Licencia 📄
-
-_Este proyecto está bajo Licencia MIT_
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ---
