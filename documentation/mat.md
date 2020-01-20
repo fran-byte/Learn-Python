@@ -1,6 +1,7 @@
 <div class=pull-left>
 :arrow_double_up: [**Home**](../README.md)
 </div>
+
 # MATEMÁTICAS
 
 ## TIPOS BOOLEANOS
