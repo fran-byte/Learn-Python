@@ -3,7 +3,7 @@
 ## Ejercicios y Material Didáctico
 
 
-Este repositorio pretende ser una ´introdución a Python 3´ basada en ejercicios y su correspondiente documentación de apoyo.
+Este repositorio pretende ser una `introdución a Python 3` basada en ejercicios y su correspondiente documentación de apoyo.
 ## Autor ️
 <img src="mdArchives/logo.png"/> **fran-byte** -
 ## Ejercicios
