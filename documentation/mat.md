@@ -1,23 +1,33 @@
 # MATEMÁTICAS
 
-## Tipos booleanos
+## TIPOS BOOLEANOS
 
-**OPERADORES**
+**Tipos booleanos:** True y False
 
-Suma | Resta | Multiplicación | División | Div. Enteros | Módulo | Potencia |
++ OPERADORES
+
+| Suma | Resta | Multiplicación | División | Div. Enteros | Módulo | Potencia |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | + | - | * | / | // | % | ** |
 
 
++ OPERADORES en ASIGNACIÓN
 
-**COMPARADORES**
+| Suma | Resta | Multiplicación | División | Módulo | Potencia |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| a+=2 | a-=2 | a*=2 | a/=2 | a%=2 | a**=5 |
 
-Menor | Mayor | Menor o Igual | Mayor o Igual | Igual | Distinto | 
+
++ COMPARADORES
+
+| Menor | Mayor | Menor o Igual | Mayor o Igual | Igual | Distinto | 
 | :--: | :--: | :--: | :--: | :--: | :--: |
 | < | > | <= | >= | == | != |
 
-**OPERADORES LÓGICOS**
++ OPERADORES LÓGICOS
 
-
+| Conjunción | Disyunción | Negación | 
+| :--: | :--: | :--: |
+| and | or | not |
 
 
