@@ -1,7 +1,7 @@
 _[< Home >](../README.md)_ _[< Indice >](indicetests.md)_
 
 # 1 - Básicos
-###### - Usando: _print_
+## _print_
 #### Ejercicio 1:
 
 
@@ -11,7 +11,7 @@ Escribe un programa que **muestre** por pantalla el texto **Hello Word!**
 print("Hello Word!")
 ````
 
-## - Usando: _print, input, Tipos de Variables_
+## _print, input, Tipos de Variables_
 #### Ejercicio 2:
 
 
@@ -23,7 +23,7 @@ cadena = input("Introduce una cadena de texto: ")
 print(cadena)
 ````
 
-## - Usando: _print, input, Tipos de Variables, Matemáticas_
+## _print, input, Tipos de Variables, Matemáticas_
 #### Ejercicio 3:
 
 
@@ -36,7 +36,7 @@ numero2 = float(input("Número 2: "))
 print(numero1*numero2)
 ````
 
-## - Usando: _print, input, Tipos de Variables, Matemáticas_
+## _print, input, Tipos de Variables, Matemáticas_
 #### Ejercicio 4:
 
 
