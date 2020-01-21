@@ -41,7 +41,7 @@ print(numero1*numero2)
 #### Ejercicio 4:
 
 
-Escribir un programa que calcule el volumen de una balón pidiendo por teclado al usuario los datos necesarios al usuario.
+Escribe un programa que calcule el volumen de una balón, pidiendo por teclado al usuario los datos necesarios.
 Puedes buscar la formula aquí: [volumen ](https://es.wikipedia.org/wiki/Esfera) 
 
 ````python
