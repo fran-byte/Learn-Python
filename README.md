@@ -11,10 +11,11 @@ Este repositorio pretende ser una `introdución a Python 3` basada en ejercicios
 ## Documentación
 :books: [Material didáctico](/documentation/indicedocu.md)
 
+## Instalación
++ Instalación del interprete _[< comenzar instalación >](https://www.python.org/downloads/)_
+
 Este apartado contiene la documentación necesaria para poder seguir todos los ejercicios y ejemplos dispuestos en el repositorio.
 ## Licencia
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ---
-## Instalación
-+ Instalación del interprete _[< comenzar instalación >](https://www.python.org/downloads/)_
