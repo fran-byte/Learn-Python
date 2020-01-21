@@ -5,7 +5,7 @@ _[< Home >](../README.md)_ _[< Indice >](indicetests.md)_
 #### Ejercicio 1:
 
 
-Escribe un programa que **muestre** por pantalla el texto **Hello Word!**
+Escribe un programa que muestre por pantalla el texto **Hello Word!**
 
 ````python
 print("Hello Word!")
@@ -15,7 +15,7 @@ print("Hello Word!")
 #### Ejercicio 2:
 
 
-Escribe un programa que pida al usuario **introducir** una cadena y la almacene en una variable y luego muestre por pantalla.
+Escribe un programa que pida al usuario introducir una cadena y la almacene en una variable y luego muestre por pantalla.
 el contenido de la variable.
 
 ````python
@@ -27,7 +27,7 @@ print(cadena)
 #### Ejercicio 3:
 
 
-Escribe un programa que pida al usuario **introducir** 2 números y los multiplique entre si mostrando el resultado por pantalla.
+Escribe un programa que pida al usuario introducir 2 números y los multiplique entre si mostrando el resultado por pantalla.
 el contenido de la variable.
 
 ````python
