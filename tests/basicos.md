@@ -16,7 +16,7 @@ print("Hello Word!")
 #### Ejercicio 2:
 
 
-Escribe un programa que pida al usuario introducir una cadena y la almacene en una variable y luego muestre por pantalla.
+Escribe un programa que pida al usuario introducir una cadena, la almacene en una variable y luego muestre por pantalla
 el contenido de la variable.
 
 ````python
