@@ -1,4 +1,8 @@
-_[< Home >](../README.md)_ _[< Indice >](indice.md)_
+## Documentación
+:book: [Material didáctico](/documentation/indice.md)
+
+## Ejercicios
+:book: [Ejercicios](/tests/indicetests.md)
 
 # 1- MATEMÁTICAS
 
