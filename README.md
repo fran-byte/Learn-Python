@@ -12,7 +12,7 @@ Este repositorio pretende ser una `introdución a Python 3` basada en ejercicios
 :book: [Ejercicios](/tests/indicetests.md)
 
 ## Documentación
-:books: [Material didáctico](/documentation/indice.md)
+:books: [Material didáctico](/documentation/indicedocu.md)
 
 Este apartado contiene la documentación necesaria para poder seguir todos los ejercicios y ejemplos dispuestos en el repositorio.
 ## Licencia
