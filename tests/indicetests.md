@@ -4,6 +4,6 @@ _[< Home >](../README.md)_
 
 #### [ 1- Básicos (primera toma de contacto)](basicos.md)
 
-#### [ 2- Condicionales)](ifelse.md)
+#### [ 2- Condicionales](ifelse.md)
 
 
