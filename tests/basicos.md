@@ -29,7 +29,6 @@ print(cadena)
 
 
 Escribe un programa que pida al usuario introducir 2 números y los multiplique entre si mostrando el resultado por pantalla.
-el contenido de la variable.
 
 ````python
 numero1 = float(input("Número 1: "))
