@@ -9,7 +9,7 @@ Este repositorio pretende ser una `introdución a Python 3` basada en ejercicios
 <img src="mdArchives/logo.png"/> **fran-byte** -
 
 ## Ejercicios
-:book: [Ejercicios](/tests/indicetests.md)
+:pencil: [Ejercicios](/tests/indicetests.md)
 
 ## Documentación
 :books: [Material didáctico](/documentation/indicedocu.md)
