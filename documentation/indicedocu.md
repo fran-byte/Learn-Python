@@ -13,17 +13,17 @@ Python es un lenguaje de programación interpretado cuya filosofía hace hincapi
  
 Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional.
 
-Sistema de tipos: Fuertemente tipado, dinámico
+**Sistema de tipos:** Fuertemente tipado, dinámico
 
-Paradigma: Multiparadigma: orientado a objetos, imperativo, funcional, reflexivo
+**Paradigma:** Multiparadigma: orientado a objetos, imperativo, funcional, reflexivo
 
-Diseñador: Guido van Rossum
+**Diseñador:** Guido van Rossum
 
-Influido por: ABC, ALGOL 68, C, Haskell, Icon, Lisp, Modula-3, Perl, Smalltalk, Java
+**Influido por:** ABC, ALGOL 68, C, Haskell, Icon, Lisp, Modula-3, Perl, Smalltalk, Java
 
-Licencia: Python Software Foundation License
+**Licencia:** Python Software Foundation License
 
-Apareció en: 1991
+**Apareció en:** 1991
 
 + Instalación del interprete _[< comenzar instalación >](https://www.python.org/downloads/)_
 
