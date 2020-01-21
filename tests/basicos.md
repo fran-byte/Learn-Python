@@ -1,4 +1,5 @@
-_[< Home >](../README.md)_ _[< Indice >](indicetests.md)_
+:page_with_curl: [README](../indice.md) :books: [Material didáctico](/documentation/indice.md) :pencil: [Ejercicios](/tests/indicetests.md)
+
 
 # 1 - Básicos
 ## _print_

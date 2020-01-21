@@ -1,4 +1,5 @@
-# <img src="mdArchives/py.png"/> Python 3 <img src="mdArchives/py.png"/>
+# <img src="mdArchives/py.png"/> Python 3 <img src="mdArchives/py.png"/> :page_with_curl: [README](../indice.md) :books: [Material didáctico](/documentation/indice.md) :pencil: [Ejercicios](/tests/indicetests.md)
+
 
 ## Ejercicios y Material Didáctico
 
