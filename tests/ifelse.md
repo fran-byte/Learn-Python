@@ -26,26 +26,18 @@ else:
 
 ###### if anidados
 
-Realiza un ejercicio que te pida un número entre el 1 y el 5.
-Ahora debes preguntar si el número 
-Ahora ponemos las siguientes condiciones:
-Que imprima el número mayor, Si no hay ninguno mayor a los otros 2 hazlo saber por pantalla.
+Realiza un ejercicio que pida al usuario dos números y los compare e imprima cual es mayor y el menor o si son iguales.
+Usa algún condicional anidado
 
 ````python
-print("Piense un número de 1 a 4.")
-print("Conteste S (sí) o N (no) a mis preguntas.")
-primera = input("¿El número pensado es mayor que 2? ")
-if primera == "S":
-    segunda = input("¿El número pensado es mayor que 3? ")
-    if segunda == "S":
-        print("El número pensado es 4.")
-    else:
-        print("El número pensado es 3")
+x = float(input("Introduzca un número: "))
+y = float(input("Introduzca otro número: "))
+
+if x == y:
+    print (x, "y", y, "son iguales")
 else:
-    segunda = input("¿El número pensado es mayor que 1? ")
-    if segunda == "S":
-        print("El número pensado es 2.")
+    if x > y:
+        print (x, "es mayor que", y)
     else:
-        print("El número pensado es 1.")
-print("¡Hasta la próxima!")
+        print (x, "es menor que", y)
 ````
