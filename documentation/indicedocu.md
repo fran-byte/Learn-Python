@@ -5,6 +5,8 @@
 
 [1. MATEMÁTICAS](/documentation/mat.md)
 
+## Python
+
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)_
 
 Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.
