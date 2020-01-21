@@ -1,4 +1,4 @@
-:page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indice.md) 
+:page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) 
 
 
 # EJERCICIOS en Python 3
