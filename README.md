@@ -1,4 +1,4 @@
-# <img src="mdArchives/py.png"/> Python 3 <img src="mdArchives/py.png"/>  
+# <img src="mdArchives/py.png"/> Python 3 <img src="mdArchives/py.png"/>
 
 
 ## Ejercicios y Material Didáctico
