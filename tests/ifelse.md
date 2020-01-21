@@ -25,8 +25,8 @@ else:
 #### Ejercicio 2:
 
 
-Realiza un ejercicio que pida al usuario dos números y los compare e imprima cual es mayor y el menor o si son iguales.
-Usa alguno de los condicionale de forma anidada.
+Realiza un ejercicio que pida al usuario dos números, los compare e imprima cual de ellos es el mayor y cual es el menor o si son iguales.
+Usa alguno de los condicionales de forma anidada.
 
 ````python
 x = float(input("Introduzca un número: "))
