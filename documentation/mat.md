@@ -2,8 +2,6 @@ _[< Home >](../README.md)_ _[< Indice >](indice.md)_
 
 # 1- MATEMÁTICAS
 
-## TIPOS BOOLEANOS
-
 ## Tipos Booleanos: True y False
 
 La variable booleana sólo puede tomar dos posibles estados o valores: **True** (verdadero) o **False** (falso).
