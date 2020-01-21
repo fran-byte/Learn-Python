@@ -30,12 +30,7 @@ La variable booleana sólo puede tomar dos posibles estados o valores: **True** 
 | a+=2 | a-=2 | a*=2 | a/=2 | a%=2 | a**=2 |
 | a= a+2 | a= a-2 | a= ax2 | a= a/2 | a= a%2 | a= a<sup>2</sup> |
 ---
-## Comparadores
 
-| Menor | Mayor | Menor o Igual | Mayor o Igual | Igual | Distinto | 
-| :--: | :--: | :--: | :--: | :--: | :--: |
-| < | > | <= | >= | == | != |
----
 ## Operadores Lógicos
 
 | Conjunción | Disyunción | Negación | 
