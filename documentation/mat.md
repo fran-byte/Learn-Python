@@ -5,7 +5,13 @@ _[< Home >](../README.md)_ _[< Indice >](indice.md)_
 ## Tipos Booleanos: True y False
 
 La variable booleana sólo puede tomar dos posibles estados o valores: **True** (verdadero) o **False** (falso).
+## Operadores
 
+| Suma | Resta | Multiplicación | División | Div. Enteros | Módulo | Potencia |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| + | - | * | / | // | % | ** |
+
+---
 ## Operadores Relacionales
 
 | Operación| Operador| Ejemplo| Significado |
@@ -17,9 +23,7 @@ La variable booleana sólo puede tomar dos posibles estados o valores: **True** 
 | Mayor | > | 33 > 10 | 33 es mayor que 10 |
 | Mayor o igual | >= | 4 >= 2 | 4 es mayor o igual que 2 |
 
-| Suma | Resta | Multiplicación | División | Div. Enteros | Módulo | Potencia |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| + | - | * | / | // | % | ** |
+
 ---
 ## Operadores en Asignación
 
