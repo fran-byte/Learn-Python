@@ -1,4 +1,4 @@
-:page_with_curl: [README](indice.md) :books: [Material didáctico](/documentation/indice.md) :pencil: [Ejercicios](/tests/indicetests.md)
+:page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indice.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
 
 # DOCUMENTACIÓN
