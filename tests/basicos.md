@@ -23,7 +23,7 @@ cadena = input("Introduce una cadena de texto: ")
 print(cadena)
 ````
 
-## _print, input, Tipos de Variables, Matemáticas_
+## _print, input, Tipos de Variables, Operadores_
 #### Ejercicio 3:
 
 
@@ -36,7 +36,7 @@ numero2 = float(input("Número 2: "))
 print(numero1*numero2)
 ````
 
-## _print, input, Tipos de Variables, Matemáticas_
+## _print, input, Tipos de Variables, Operadores_
 #### Ejercicio 4:
 
 
