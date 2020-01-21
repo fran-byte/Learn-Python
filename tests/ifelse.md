@@ -24,7 +24,6 @@ else:
 
 #### Ejercicio 2:
 
-###### if anidados
 
 Realiza un ejercicio que pida al usuario dos números y los compare e imprima cual es mayor y el menor o si son iguales.
 Usa alguno de los condicionale de forma anidada.
