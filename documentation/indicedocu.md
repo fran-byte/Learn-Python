@@ -7,7 +7,7 @@
 
 ## Python
 
-+ Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)_
++ Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
 
 Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.
  
