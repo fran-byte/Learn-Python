@@ -3,8 +3,7 @@ _[< Home >](../README.md)_ _[< Indice >](indicetests.md)_
 # 2 - CONDICIONALES 
 ## if, elif, else
 #### Ejercicio 1:
-Pide al usuario que introduzca 3 números enteros.
-Condicionamos de la siguiente forma:
+Realiza un ejercicio que pida al usuario que introduzca 3 números enteros.
 Debe imprimir el número mayor, Si no hay ninguno mayor a los otros 2 hazlo saber por pantalla.
 
 ````python
