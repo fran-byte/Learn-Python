@@ -1,5 +1,5 @@
 
-:book: [Material didáctico](/documentation/indice.md) :pencil: [Ejercicios](/tests/indicetests.md)
+:home: [Material didáctico](../indice.md) :book: [Material didáctico](/documentation/indice.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
 
 
