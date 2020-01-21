@@ -2,7 +2,7 @@ _[< Home >](../README.md)_ _[< Indice >](indicetests.md)_
 
 # 1 - Básicos
 #### Ejercicio 1:
-<print>
+###### print
 
 Escribe un programa que **muestre** por pantalla el texto **Hello Word!**
 
@@ -11,7 +11,7 @@ print("Hello Word!")
 ````
 
 #### Ejercicio 2:
-<input> <print> <Tipos de Variables>
+###### print, input, Tipos de Variables
 
 Escribe un programa que pida al usuario **introducir** una cadena y la almacene en una variable y luego muestre por pantalla.
 el contenido de la variable.
@@ -22,7 +22,7 @@ print(cadena)
 ````
 
 #### Ejercicio 3:
-<print> <input> <Tipos de Variables> <Matemáticas>
+###### print, input, Tipos de Variables, Matemáticas
 
 Escribe un programa que pida al usuario **introducir** 2 números y los multiplique entre si mostrando el resultado por pantalla.
 el contenido de la variable.
@@ -34,7 +34,8 @@ print(numero1*numero2)
 ````
 
 #### Ejercicio 4:
-<print> <input> <Tipos de Variables> <Matemáticas>
+###### print, input, Tipos de Variables, Matemáticas
+
 Escribir un programa que calcule el volumen de una balón pidiendo por teclado al usuario los datos necesarios al usuario.
 Puedes buscar la formula aquí: [volumen ](https://es.wikipedia.org/wiki/Esfera) 
 
