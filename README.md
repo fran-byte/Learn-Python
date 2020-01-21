@@ -16,3 +16,5 @@ Este apartado contiene la documentación necesaria para poder seguir todos los e
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ---
+## Instalación
++ Instalación del interprete _[< comenzar instalación >](https://www.python.org/downloads/)_
