@@ -23,7 +23,8 @@ Se trata de un lenguaje de programación multiparadigma, ya que soporta **orient
 
 **Licencia:** Python Software Foundation License
 
-**Apareció en:** 1991
+**Apareció en:** 1991  
+
 
 + Instalación del interprete _[< comenzar instalación >](https://www.python.org/downloads/)_
 
