@@ -29,7 +29,7 @@ b = "días !"
 sumaCadenas = a + " " + b
 print (sumaCadenas)
 ````
-## Tipo Booleano
+## Tipo. Booleanos
 Solo puede admitir Verdadero o Falso. Usados en condiciones y bucles, que veremos más adelante.
 True / False
 ````python
@@ -40,7 +40,7 @@ True
 
 
 
-## Tipo Numeros
+## Tipo. Numeros
 ### Enteros:
 
 Son los Números que carecen de decimales
@@ -63,13 +63,13 @@ n = 3,8 + 9j
 
  
 
-## Tipos de conjuntos
+## Tipo. Conjuntos
 Colección de datos sin elementos repetidos, desordenados y separadas por comas, entre llaves.
 `````python
 conjunto = {'casa', 'arbol', 'perro',356,'empanadilla',-89,'mango', 'quesito'}
 `````
 
-## Tipos de listas
+## Tipos. Listas
 Son listas que almacenan vectores (es decir arrays) y pueden contener tipos de datos diferentes. 
 `````python
 lista1 = ['17',-66,99,44,"adios", 'hola',6,7,"8",9,10,11,12,13]
@@ -79,13 +79,13 @@ print(lista2)
 `````
  
 
-## Tipos de tuplas:
+## Tipo. Tuplas:
 Es una lista **inmutable**
 `````python
 tupla1 = ("pajaro",34,"9",reloj)
 `````
 
-## Tipos de diccionarios:
+## Tipos. Diccionarios:
 Podemos almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones.
 Y podemos identificar cada elemento por una clave (Key).
 `````python
