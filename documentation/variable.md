@@ -12,6 +12,9 @@ En Python las variables se crean al definirse por primera vez.
 Puede almacenar texto, números o estructuras más complejas.
 Es recomendable que el nombre de la variable tenga relación con lo que se va a almacenar en ella.
 No pueden empezar con ningún número.
+````python
+saludio1= "Buenos días" # (esto es un comentario en Phyton, utilizaremos el simbolo: # y después el texto)
+````
 
 ## Palabras reservadas en Python
 
@@ -25,16 +28,6 @@ No se pueden utilizar para nombrar variables:
 | not | or | pass | raise | return | true |
 | try | while | with | yield |
 
-
-
-
-
-
-
-
-````python
-saludio1= "Buenos días" # (esto es un comentario en Phyton, utilizaremos el simbolo: # y después el texto)
-````
 ### Empezaremos con los tipos que existen, 
 (Aunque profundizaremos más adelante en cada uno de ellos)
 ## Tipo. Cadenas (str) o Strings  ""
