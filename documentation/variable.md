@@ -17,12 +17,12 @@ No pueden empezar con ningún número.
 
 No se pueden utilizar para nombrar variables:
 | and | as | assert | async | await | break |
-| --- | --- | --- | --- | --- | --- |
-| : continue | : def | : del | : elif | : else | : except |
-| : false | : finally | : for | : from | : global | : if |
-| : import | : in | : is | : lambda | : none | : nonlocal |
-| : not | : or | : pass | : raise | : return |: true |
-| : try | : while | : with | : yield | :  | :  |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| continue | def | del | elif | else | except |
+| false | finally | for | from | global | if |
+| import | in | is | lambda | none | nonlocal |
+| not | or | pass | raise | return | true |
+| try | while | with | yield |  |  |
 
 
 
