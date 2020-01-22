@@ -79,13 +79,13 @@ print(lista2)
 `````
  
 
-## Tipo. Tuplas:
+## Tipo. Tuplas
 Es una lista **inmutable**
 `````python
 tupla1 = ("pajaro",34,"9",reloj)
 `````
 
-## Tipos. Diccionarios:
+## Tipos. Diccionarios
 Podemos almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones.
 Y podemos identificar cada elemento por una clave (Key).
 `````python
