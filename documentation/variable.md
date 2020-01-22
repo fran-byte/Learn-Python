@@ -16,8 +16,9 @@ No pueden empezar con ningún número
 ````python
 saludio1= "Buenos días" # (esto es un comentario en Phyton, utilizaremos el simbolo: # y después el texto)
 ````
-### Empezaremos con los tipos que existen, aunque profundizaremos más adelante en cada uno de ellos:
-## Tipo de Cadenas
+### Empezaremos con los tipos que existen, 
+(Aunque profundizaremos más adelante en cada uno de ellos)
+## Tipo Cadena
 Son texto entre comillas (simples o dobles) y admiten operadores.
 ````python
 cadena1 = ("comillas dobles")
@@ -28,7 +29,7 @@ b = "días !"
 sumaCadenas = a + " " + b
 print (sumaCadenas)
 ````
-## Tipos de booleanos
+## Tipo Booleano
 Solo puede admitir Verdadero o Falso. Usados en condiciones y bucles, que veremos más adelante.
 True / False
 ````python
@@ -39,21 +40,25 @@ True
 
 
 
-## Tipos de Enteros
-### Numeros:
+## Tipo Numeros
+### Enteros:
 
-Enteros: Son los Números que carecen de decimales
+Son los Números que carecen de decimales
 **int** (entero) o **long** (entero largo para más precisión).
 `````python
 edad = 25
 `````
-Reales: Son los números que tienen decimales y son del tipo float.
+### Reales: 
+
+Son los números que tienen decimales y son del tipo float.
 `````python
 longitud = 25.638
 `````
-Complejos: Números que tienen una parte real y una imaginaria. Estos números se denominan complex.
+### Complejos:
+
+Números que tienen una parte real y una imaginaria. Estos números se denominan complex.
 `````python
-n = X= 3,8 + 9j
+n = 3,8 + 9j
 `````
 
  
