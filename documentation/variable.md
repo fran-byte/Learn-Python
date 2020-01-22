@@ -21,8 +21,8 @@ saludio1= "Buenos días" # (esto es un comentario en Phyton, utilizaremos el sim
 ## Tipo Cadena
 Son texto entre comillas (simples o dobles) y admiten operadores.
 ````python
-cadena1 = ("comillas dobles")
-cadena2 = ('comillas simples')
+cadena1 = "comillas dobles"
+cadena2 = 'comillas simples'
 
 a = "Buenos"
 b = "días !"
