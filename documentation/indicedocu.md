@@ -4,6 +4,7 @@
 # DOCUMENTACIÓN Pyhton 3
 
 [1. MATEMÁTICAS](/documentation/mat.md)
+
 [1. VARIABLES y TIPOS de DATOS](/documentation/variable.md)
 
 ## Python
