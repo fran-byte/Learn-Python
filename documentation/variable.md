@@ -20,13 +20,14 @@ saludio1= "Buenos días" # (esto es un comentario en Phyton, utilizaremos el sim
 
 No se pueden utilizar para nombrar variables:
 
-| :--- | :--- | :--- | :--- | :--- | :--- |
+
 | and | as | assert | async | await | break |
 | continue | def | del | elif | else | except |
 | false | finally | for | from | global | if |
 | import | in | is | lambda | none | nonlocal |
 | not | or | pass | raise | return | true |
 | try | while | with | yield |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 
 ### Empezaremos con los tipos que existen, 
 (Aunque profundizaremos más adelante en cada uno de ellos)
