@@ -18,7 +18,7 @@ saludio1= "Buenos días" # (esto es un comentario en Phyton, utilizaremos el sim
 ````
 ### Empezaremos con los tipos que existen, 
 (Aunque profundizaremos más adelante en cada uno de ellos)
-## Tipo. Cadenas (str) o Strings
+## Tipo. Cadenas (str) o Strings  ""
 Son texto entre comillas (simples o dobles) y admiten operadores.
 ````python
 cadena1 = "comillas dobles"
@@ -63,14 +63,16 @@ n = 3,8 + 9j
 
  
 
-## Tipo. Conjuntos
+## Tipo. Conjuntos {}
 Colección de datos sin elementos repetidos, desordenados y separadas por comas, entre llaves.
 `````python
 conjunto = {'casa', 'arbol', 'perro',356,'empanadilla',-89,'mango', 'quesito'}
 `````
 
-## Tipos. Listas
-Son listas que almacenan vectores (es decir arrays) y pueden contener tipos de datos diferentes. 
+## Tipos. Listas [ ]
+Son conjuntos ordenados de elementos pueden almacenar números, cadenas, otras listas...
+Se colocan entre ([ ]) y los elementos van separados por comas.
+
 `````python
 lista1 = ['17',-66,99,44,"adios", 'hola',6,7,"8",9,10,11,12,13]
 lista2 = lista1[0:8:2] # Cogemos de la lista1 desde la posición 0 a la 8 y de 2 2n 2; y lo metemos en la lista2
@@ -79,13 +81,13 @@ print(lista2)
 `````
  
 
-## Tipo. Tuplas
+## Tipo. Tuplas ()
 Es una lista **inmutable**
 `````python
 tupla1 = ("pajaro",34,"9",reloj)
 `````
 
-## Tipos. Diccionarios
+## Tipos. Diccionarios { : }
 Podemos almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones.
 Y podemos identificar cada elemento por una clave (Key).
 `````python
