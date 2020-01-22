@@ -7,6 +7,8 @@
 
 [2. VARIABLES y TIPOS de DATOS](/documentation/variable.md)
 
+[3. ENTRADAS y SALIDAS](/documentation/entsal.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
