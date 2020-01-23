@@ -62,6 +62,6 @@ También podemos hacer que el texto de la entrada se convierta a números entero
 numeroEntero = int (input ("Introduce un número: "))
 print(numeroEntero+50)
 
-numeroDecimal = ifloat (input ("Introduce un número decimal: "))
+numeroDecimal = float (input ("Introduce un número decimal: "))
 print(numeroEntero+50)decimal
 ````
