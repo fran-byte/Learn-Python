@@ -9,7 +9,7 @@
 
 [3. ENTRADAS y SALIDAS](/documentation/entsal.md) 
 
-[4. INDICES y SLICING](/documentation/indSli.md)
+[4. INDICES y SLICING](/documentation/indsli.md)
 
 ## Python
 
