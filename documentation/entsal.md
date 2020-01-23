@@ -8,7 +8,7 @@
 
 ## print()
 
-Esta función nos permite mostrar texto por pantalla,
+Esta función nos permite _**mostrar**_ texto por pantalla,
 el argumento de la función irá entre paréntesis, y puede ser un texto entre comillas simples o dobles o una variable.
 
 ````python
