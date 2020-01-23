@@ -42,6 +42,7 @@ print ("Esta contrabanda no saldrá pero deja en crudo el siguiente caracter \" 
 print ("Podemos utilizar\nPara hacer un salto de línea, o un\tpara una tabulación")
 ````
 > Podemos utilizar
+>
 > Para hacer un salto de línea, o un    para una tabulación
 
 
