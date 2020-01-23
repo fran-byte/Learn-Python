@@ -6,7 +6,7 @@
 Pueden ser cadenas de texto, caracteres, otras listas, van entre corchetes [ ] y son MODIFICABLES
 
 ````python
-lista1 = ["Python",1,2,"3",[4,5,"seis"],7,8] # Podemos observar otra lista entre cocrchetes dentro de la lista1
+lista1 = ["Python",1,2,"3",[4,5,"seis"],7,8] # Podemos observar otra lista entre corchetes dentro de la lista1
 print (lista1)
 ````
 
@@ -33,6 +33,7 @@ print (len(lista1))
 >7
 >
 >
+Las siguientes funciones las iremos utilizando según vamos avanzado...
 
 ##  Métodos (o funciones) para trabajar con las LISTAS en Python
 
