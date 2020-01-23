@@ -26,4 +26,6 @@ Si queremos referirnos a cualquier índice lo haremos de la siguiente manera ent
 ````python
 print (palabra[3])
 > 'h'
+print (palabra[-5])
+> 'y'
 ````
