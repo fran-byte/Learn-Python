@@ -7,7 +7,7 @@
 
 [2. VARIABLES y TIPOS de DATOS](/documentation/variable.md)
 
-[3. ENTRADAS y SALIDAS](/documentation/entSal.md)
+[3. ENTRADAS y SALIDAS](/documentation/entSal.md) 
 
 [4. INDICES y SLICING](/documentation/indSli.md)
 
