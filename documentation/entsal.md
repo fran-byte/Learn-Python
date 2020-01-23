@@ -43,7 +43,7 @@ print ("Podemos utilizar\nPara hacer un salto de línea, o un\tpara una tabulaci
 ````
 > Podemos utilizar
 >
-> Para hacer un salto de línea, o un    para una tabulación
+> Para hacer un salto de línea, o un____para una tabulación
 
 
 
