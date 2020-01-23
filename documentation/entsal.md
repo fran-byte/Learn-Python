@@ -29,4 +29,10 @@ un ENTER podemos cambiar
 de línea las veces que queramos y así
 no tenemos que colocar varios print.
 ````
+Para Si queremos incluir comillas dentro de comillas, lo hacemos con una contrabarra (\)
+````python
 
+print ("Esta contrabanda no saldrá pero deja en crudo el siguiente caracter \" que son estas comillas \""")
+
+Esta contrabanda no saldrá pero deja en crudo el siguiente caracter " que son estas comillas " 
+````
