@@ -43,3 +43,25 @@ print ("Podemos utilizar\nPara hacer un salto de línea, o un\tpara una tabulaci
 ````
 > Podemos utilizar
 > Para hacer un salto de línea, o un    para una tabulación
+
+
+
+## input()
+
+Esta función nos permite recoger **_texto_** por pantalla,
+el argumento de la función irá entre paréntesis, y puede ser un texto entre comillas simples o dobles.
+Lo podemos recoger en una variable.
+
+
+````python
+ texto1 = input("Entrada de texto: ")
+````
+###Conversión de Tipos:
+También podemos hacer que el texto de la entrada se convierta a números enteros o flotantes y así poder operar con ellos.
+````python
+numeroEntero = int (input ("Introduce un número: "))
+print(numeroEntero+50)
+
+numeroDecimal = ifloat (input ("Introduce un número decimal: "))
+print(numeroEntero+50)decimal
+````
