@@ -13,6 +13,8 @@
 
 [5. LISTAS](/documentation/listas.md)
 
+[6. LISTAS ANIDADAS](/documentation/listasanidadas.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
