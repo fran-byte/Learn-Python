@@ -21,12 +21,12 @@ print (x)
 >
 > 5
 ````python
-print (""" Con estas 3 comillas con y
+print (""" Con estas 3 comillas y con
 un ENTER por línea podemos cambiar 
 de línea las veces que queramos y así 
 no tenemos que colocar varios print.""")
 ````
-> Con estas 3 comillas con y 
+> Con estas 3 comillas y con 
 un ENTER por lñinea podemos cambiar  
 de línea las veces que queramos y así  
 no tenemos que colocar varios print.
