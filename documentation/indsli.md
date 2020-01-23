@@ -25,7 +25,9 @@ palabra = "Python"
 Si queremos referirnos a cualquier índice lo haremos de la siguiente manera entre corchetes [ ]:
 ````python
 print (palabra[3])
+````
 > 'h'
+````python
 print (palabra[-5])
 > 'y'
 ````
@@ -33,8 +35,9 @@ print (palabra[-5])
 Podemos hacer _SLICING_ (Rebanando), es decir coger _**rebanadas**_ de esa cadena de texto anterior:
 ````python
 print (palabra[2:-1]) # Una rebanada desde el índice 2 hasta el -1 pero sin tomar este último
-> 'tho'
 ````
+> 'tho'
+
 ````python
 print (palabra[:2]) # Desde el inicio (ya que lo hemos dejado vacío)
                     # hasta la posición 2, pero sin tomar esta última es decir el índice 0 y 1
