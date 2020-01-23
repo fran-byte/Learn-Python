@@ -44,6 +44,6 @@ print (palabra[:2]) # Desde el inicio (ya que lo hemos dejado vacío)
 ````
 > 'Py'
 >
-Si no especificamos en tre los corchetes ningún número nos recogera desde el inicio hasta el final [:]
+Si no especificamos entre los corchetes ningún número nos recogera desde el inicio hasta el final [:]
 
 Por el contrario si indicamos un índice que no existe nos dará un error.

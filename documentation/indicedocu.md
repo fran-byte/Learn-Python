@@ -11,6 +11,8 @@
 
 [4. INDICES y SLICING](/documentation/indsli.md)
 
+[5. LISTAS](/documentation/listas.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
