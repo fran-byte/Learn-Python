@@ -23,12 +23,12 @@ print (""" Con estas 3 comillas con
 un ENTER podemos cambiar 
 de línea las veces que queramos y así 
 no tenemos que colocar varios print.""")
-
+````
 >>  Con estas 3 comillas con
 un ENTER podemos cambiar 
 de línea las veces que queramos y así
 no tenemos que colocar varios print.
-````
+
 Para Si queremos incluir comillas dentro de comillas, lo hacemos con una contrabarra (\)
 ````python
 
