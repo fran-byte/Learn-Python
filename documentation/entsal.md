@@ -63,5 +63,5 @@ numeroEntero = int (input ("Introduce un número: "))
 print(numeroEntero+50)
 
 numeroDecimal = float (input ("Introduce un número decimal: "))
-print(numeroEntero+50)decimal
+print(numeroDecimal+50)
 ````
