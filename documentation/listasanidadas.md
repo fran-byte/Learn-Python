@@ -16,7 +16,7 @@ print (r)
 ````
 > [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-Si queremos acceder a cualquiera de estos números debemos acceder primero al _**primer indice**_
+Si queremos acceder a cualquiera de estos números debemos acceder primero al _**primer índice**_
 que correspondera a una de las 3 listas, y después a un _**segundo índice**_ que coresponderá a uno de los números
 de la lista, lo vemos con un ejemplo.
 ````python
