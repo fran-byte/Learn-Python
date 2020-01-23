@@ -6,4 +6,25 @@
 
 # 3- ENTRADAS y SALIDAS
 
-## print
+## print()
+
+Esta función nos permite mostrar texto por pantalla,
+el argumento de la función irá entre paréntesis, y puede ser un texto o una variable.
+
+````python
+print ("Hello World")
+>> Hello World
+
+x = 5
+print (x)
+>> 5
+
+print (""" Con estas 3 comillas con
+un ENTER podemos cambiar 
+de línea las veces que queramos y así 
+no tenemos que colocar varios print.""")
+>>>  Con estas 3 comillas con
+un ENTER podemos cambiarde línea las veces que queramos y así
+no tenemos que colocar varios print.
+````
+
