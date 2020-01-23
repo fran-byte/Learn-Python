@@ -37,8 +37,8 @@ Pera Si queremos incluir comillas dentro de comillas, lo hacemos con una contrab
 print ("Esta contrabanda no saldrá pero deja en crudo el siguiente caracter \" que son estas comillas \"")
 ````
 > Esta contrabanda no saldrá pero deja en crudo el siguiente caracter " que son estas comillas "    
->
->
+> 
+> 
 ````python
 print ("Podemos utilizar\nPara hacer un salto de línea, o un\tpara una tabulación")
 ````
