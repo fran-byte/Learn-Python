@@ -11,10 +11,15 @@ palabra = "Python"
 ````
 
 >"P" índice 0
+>
 >"y" índice 1
+>
 >"t" índice 2
+>
 >"h" índice 3
+>
 >"o" índice 4
+>
 >"n" índice 5
 
 Si queremos referirnos a cualquier índice lo haremos de la siguiente manera entre corchetes []:
