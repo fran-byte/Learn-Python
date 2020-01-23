@@ -13,7 +13,7 @@ Puede almacenar texto, números o estructuras más complejas.
 Es recomendable que el nombre de la variable tenga relación con lo que se va a almacenar en ella.
 No pueden empezar con ningún número.
 ````python
-saludio1= "Buenos días" # (esto es un comentario en Phyton, utilizaremos el simbolo: # y después el texto)
+saludo1= "Buenos días" # (esto es un comentario en Phyton, utilizaremos el simbolo: # y después el texto)
 ````
 
 ## Palabras reservadas en Python
