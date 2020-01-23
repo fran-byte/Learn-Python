@@ -56,7 +56,7 @@ Lo podemos recoger en una variable.
 ````python
  texto1 = input("Entrada de texto: ")
 ````
-###Conversión de Tipos:
+### Conversión de Tipos:
 También podemos hacer que el texto de la entrada se convierta a números enteros o flotantes y así poder operar con ellos.
 ````python
 numeroEntero = int (input ("Introduce un número: "))
