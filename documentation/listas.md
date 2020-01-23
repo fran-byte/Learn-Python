@@ -33,7 +33,7 @@ print (len(lista1))
 >7
 >
 >
-Las siguientes funciones las iremos utilizando según vamos avanzado...
+Las siguientes funciones las iremos utilizando según vayamos avanzado...
 
 ##  Métodos (o funciones) para trabajar con las LISTAS en Python
 
