@@ -6,7 +6,7 @@
 Condicionales.
 
 ````python
-if a==5: # Para abrir lo que ocurrira si se cumple la condición no olvidar colocar los dos puntos :
+if a==5: # ...................Para abrir lo que ocurrira si se cumple la condición no olvidar colocar los dos puntos :
     print("Correcto a = 5") # Observese que el print dentro de if esta sangrado o identado.
 
 else
