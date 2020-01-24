@@ -43,4 +43,4 @@ r[2][2] = sum (r[2][:2])
  
 print ("El resultado es el siguiente: ",r)
 ````
-> [[1, 2, 3], [4, 5, 9], [7, 8, 15]]
+> El resultado es el siguiente: [[1, 2, 3], [4, 5, 9], [7, 8, 15]]
