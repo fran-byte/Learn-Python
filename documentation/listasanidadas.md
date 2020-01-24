@@ -25,7 +25,7 @@ print(r[2][1])  # Primer índice[2]  corresponde al 3º grupo es decir a la list
 ````
 > 8
 
-Modificando LISTAS ANIDADAS
+### Modificando LISTAS ANIDADAS
 En el ejemplo anterior, vamos a sumar los 2 primeros índices de las listas(anidadas) que hemos introducido y dejarlo en el tercer índice.
 
 ````python
