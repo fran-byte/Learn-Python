@@ -19,6 +19,7 @@ print (r)
 Si queremos acceder a cualquiera de estos números debemos acceder primero al _**primer índice**_
 que correspondera a una de las 3 listas, y después a un _**segundo índice**_ que coresponderá a uno de los números
 de la lista, lo vemos con un ejemplo.
+
 ````python
 print(r[2][1])  # Primer índice[2]  corresponde al 3º grupo es decir a la lista "c" ya anidada dentro de "r"
                 # y el segundo índice [1] al número 8 (siempre empezamos a contar desde el índice 0)
@@ -37,6 +38,7 @@ r = [a,b,c]   # Esto es lo que tenemos ahora dentro de r = [[1, 2, 3], [4, 5, 6]
 
 r[0][2] = sum (r[0][:2]) # Estamos sumando del indice [0] (es decir la antigua lista "a" ahora anidada en "r")
                         # desde [:2] el índice 0 ya que no hemos puesto inicio alguno hasta el índice 2 (recordemos que este último no se toma)
+                        # y esta suma la dejamos en la lista "a" ya anidada en r [0] y dentro de esta en el índice [2]
 
 r[1][2] = sum (r[1][:2]) # Hacemos lo propio con el resto de índices
 r[2][2] = sum (r[2][:2])
