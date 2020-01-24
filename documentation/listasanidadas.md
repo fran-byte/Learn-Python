@@ -33,7 +33,7 @@ a = [1,2,3]
 b = [4,5,6]
 c = [7,8,9]
 
-r = [a,b,c]
+r = [a,b,c]   # Esto es lo que tenemos ahora dentro de r = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 r[0][2] = sum (r[0][:2]) # Estamos sumando del indice [0] (es decir la antigua lista "a" ahora anidada en "r")
                         # desde [:2] el índice 0 ya que no hemos puesto inicio alguno hasta el índice 2 (recordemos que este último no se toma)
