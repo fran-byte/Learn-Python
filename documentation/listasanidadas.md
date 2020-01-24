@@ -3,7 +3,7 @@
 
 # 6. LISTAS ANIDADAS[ ]
 
-Como ya dijimos podemos incluir listas dentro de otra lista
+Como ya dijimos anteriormente podemos incluir listas dentro de otra lista
 
 ````python
 a = [1,2,3]
