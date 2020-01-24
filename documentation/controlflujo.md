@@ -13,7 +13,7 @@ else:
      print("a es distito de 5") # Si la condición no fueta verdadera (True) imprimiriamos esto
 ````
 
-Podemos añadir después de un (if) un (elif) y seguir introduciendo condiciones.
+Podemos añadir después de un (if) un (elif) y seguir introduciendo condiciones
 
 ````python
 if a==5: 
