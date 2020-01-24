@@ -38,7 +38,7 @@ r = [a,b,c]
 r[0][2] = sum (r[0][:2]) # Estamos sumando del indice [0] (es decir la antigua lista "a" ahora anidada en "r")
                         # desde [:2] el índice 0 ya que no hemos puesto inicio alguno hasta el índice 2 (recordemos que este último no se toma)
 
-r[1][2] = sum (r[1][:2]) # Hacemos lo propio con el rsto de índices
+r[1][2] = sum (r[1][:2]) # Hacemos lo propio con el resto de índices
 r[2][2] = sum (r[2][:2])
  
 print ("El resultado es el siguiente: ",r)
