@@ -15,7 +15,7 @@
 
 [6. LISTAS ANIDADAS](/documentation/listasanidadas.md)
 
-[# 7. CONTROL DE FLUJO if, elif, else](/documentation/controlflujo.md)
+[7. CONTROL DE FLUJO if, elif, else](/documentation/controlflujo.md)
 
 ## Python
 
