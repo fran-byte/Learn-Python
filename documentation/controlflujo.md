@@ -3,13 +3,13 @@
 
 # 7. CONTROL DE FLUJO if, elif, else
 
-Condicionales.
+Condicionales
 
 ````python
 if a==5: # El (if) siempre viene precedido de los 2 puntos (:) no olvidarlo, si no, nos reportará un error.
     print("Correcto a = 5") # Observese que el (print) dentro del (if) esta sangrado o identado.
 
-else
+else:
      print("a es distito de 5") # Si la condición no fueta verdadera (True) imprimiriamos esto
 ````
 
@@ -21,6 +21,6 @@ if a==5:
 
 elif a==15:
     print(a) 
-else
+else:
      print("a no es ni 5 ni 10")
 ````
