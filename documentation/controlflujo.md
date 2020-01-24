@@ -3,7 +3,7 @@
 
 # 7. CONTROL DE FLUJO if, elif, else
 
-omo ya
+Condicionales.
 
 ````python
 if a==5:
