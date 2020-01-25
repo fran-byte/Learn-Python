@@ -1,7 +1,7 @@
 :page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
 # 11. TUPLAS () 
-## Colleción de Datos INMUTABLE
+## Coleción de Datos INMUTABLE
 
 Aceptan todo los parámetros al igual que las listas, menos los que impliquen modificación.
 
