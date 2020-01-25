@@ -17,6 +17,10 @@
 
 [7. CONTROL DE FLUJO if, elif, else](/documentation/controlflujo.md)
 
+[8. SENTENCIAS ITERATIVAS (BUCLES)](/documentation/iterativas.md)
+
+
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
