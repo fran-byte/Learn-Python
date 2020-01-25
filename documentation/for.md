@@ -5,7 +5,7 @@
 ## Recorriendo LISTAS
 
 En Pyton **for** se utiliza muy amenudo para recorrer el contenido de las listas, tuplas, diccionarios, etc...
-Podríamos hacerlo con **while** pero la líneas de código serían mayores
+Podríamos hacerlo con **while** pero las líneas de código serían mayores
 
 ````python
 ns = [1,2,3,4,"CINCO",6,7,"OCHO",9]
@@ -41,7 +41,7 @@ Puede parecer algo confuso al principio pero según vayamos haciendo ejercicios 
 
 ## ITERANDO (recorriendo) con zip
 
-Si queremos recorrer o iterar dos lista a la vez, lo podemos conseguir mediante la función zip (cremallera) y ayudandonos de un contador
+Si queremos recorrer o iterar dos listas a la vez, lo podemos conseguir mediante la función zip (cremallera) y ayudandonos de un contador
 
 ````python
 lista1 = [1,"DOS",3,"CUATRO",5,"SEIS",7,"OCHO",9]
