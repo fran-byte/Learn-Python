@@ -3,23 +3,23 @@
 
 # DOCUMENTACIÓN Pyhton 3
 
-[1.  MATEMÁTICAS](/documentation/mat.md)
+[01. MATEMÁTICAS](/documentation/mat.md)
 
-[2.  VARIABLES y TIPOS de DATOS](/documentation/variable.md)
+[02. VARIABLES y TIPOS de DATOS](/documentation/variable.md)
 
-[3.  ENTRADAS y SALIDAS](/documentation/entsal.md) 
+[03. ENTRADAS y SALIDAS](/documentation/entsal.md) 
 
-[4.  INDICES y SLICING](/documentation/indsli.md)
+[04. INDICES y SLICING](/documentation/indsli.md)
 
-[5.  LISTAS](/documentation/listas.md)
+[05. LISTAS](/documentation/listas.md)
 
-[6.  LISTAS ANIDADAS](/documentation/listasanidadas.md)
+[06. LISTAS ANIDADAS](/documentation/listasanidadas.md)
 
-[7.  CONTROL DE FLUJO if, elif, else](/documentation/controlflujo.md)
+[07. CONTROL DE FLUJO if, elif, else](/documentation/controlflujo.md)
 
-[8.  SENTENCIAS ITERATIVAS (BUCLES)](/documentation/iterativas.md)
+[08. SENTENCIAS ITERATIVAS (BUCLES)](/documentation/iterativas.md)
 
-[9.  for](/documentation/for.md)
+[09. for](/documentation/for.md)
 
 [10. for (Seguimos iterando)](/documentation/for2.md)
 
