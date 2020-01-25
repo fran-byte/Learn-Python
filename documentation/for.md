@@ -38,3 +38,17 @@ Vease que **enumerate**(ns) nos de vuelve 2 valores, uno es nº de registro o í
  el índice se quedará en la variable (indice) que hemos creado en el propio (for) y el contenido de ese índice se irá a (numero)
 
 Puede parecer algo confuso al principio pero según vayamos haciendo ejercicios nos resultará muy fácil...
+
+## ITERANDO (recorriendo) con zip
+
+Si queremos recorrer o iterar dos lista a la vez, lo podemos conseguir mediante la función zip (cremallera) y ayudandonos de un contador
+
+````python
+lista1 = [1,"DOS",3,"CUATRO",5,"SEIS",7,"OCHO",9]
+lista2 = ["UNO",2,"TRES",4,"CINCO",6,"SIETE",8,"NUEVE"]
+contador=0
+for i,a in zip(lista1,lista2):   
+                 
+    print(lista1[contador],lista2[contador]) 
+    contador+=1
+````
