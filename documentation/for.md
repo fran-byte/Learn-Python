@@ -5,7 +5,7 @@
 ## Recorriendo LISTAS
 
 En Pyton **for** se utiliza muy amenudo para recorrer el contenido de las listas, tuplas, diccionarios, etc...
-Podriamos hacerlo con **while** pero la líneas de código serían mayores
+Podríamos hacerlo con **while** pero la líneas de código serían mayores
 
 ````python
 ns = [1,2,3,4,"CINCO",6,7,"OCHO",9]
