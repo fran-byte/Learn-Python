@@ -13,14 +13,15 @@ else:
      print("a es distito de 5") # Si la condición no fueta verdadera (True) imprimiriamos esto
 ````
 
-Podemos añadir después de un (if) un (elif) y seguir introduciendo condiciones
-
+Podemos añadir después de un (if) un (elif) y seguir introduciendo condiciones incluso anidadas (en if o else)
 ````python
-if a==5: 
+if a >= 5: 
     print(a) 
 
-elif a==15:
+elif a == 15:
     print(a) 
 else:
-     print("a no es ni 5 ni 10")
+    print("a no es ni 5 ni 15")
+    if a == 10: # Este (if) lo tenemos anidado dentro del (else)
+        print(a)
 ````
