@@ -36,3 +36,4 @@ for indice,numero in enumerate(ns):   # El contenido de (ns) a (numero) y el ín
 ````
 Vease que **enumerate**(ns) nos de vuelve 2 valores, uno es nº de registro o índice y otro es el contenido de ese índice,
  el índice se quedará en la variable (indice) que hemos creado en el propio (for) y el contenido de ese índice se irá a (numero)
+ Puede parecer algo confuso al principio pero según vayamos haciendo ejercicios nos resultará muy fácil...
