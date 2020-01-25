@@ -33,7 +33,7 @@ print ("El bucle ha finalizado")
 
 ````python
 
-while True : # Se ejecutará siempre (hasta verse interrumpido)
+while True : # Se ejecutará siempre hasta verse interrumpido por la sentencia (break)
     
     print("""OPCIONES
     1- SALUDAR
