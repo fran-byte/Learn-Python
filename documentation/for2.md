@@ -5,6 +5,8 @@
 
 Realmente no se pueden Modificar, pero vamos a hacer algo parecido.
 
+Crear una nueva cadena (str) que partirá de una modificación de la primera.
+
 ````python
 cadena1 = "Python"
 cadena2 = ""
