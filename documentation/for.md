@@ -47,10 +47,10 @@ Si queremos recorrer o iterar dos lista a la vez, lo podemos conseguir mediante 
 lista1 = [1,"DOS",3,"CUATRO",5,"SEIS",7,"OCHO",9]
 lista2 = ["UNO",2,"TRES",4,"CINCO",6,"SIETE",8,"NUEVE"]
 contador=0
-for i,a in zip(lista1,lista2):   
+for i,a in zip(lista1,lista2): # Cada lista irá volcandose en (i) y (a) respectivamente
                  
     print(lista1[contador],lista2[contador]) 
-    contador+=1
+    contador+=1 # Vamos incrementando el (contador) que será nuestro índice para ir recorriendo las listas e imprimiendo
 ````
 
 >1 UNO
