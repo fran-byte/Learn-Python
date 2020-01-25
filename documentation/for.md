@@ -4,7 +4,7 @@
 # 9. for 
 ## Recorriendo LISTAS
 
-En Pyton **for** se utiliza muy a menudo para recorrer el contenido de las listas, tuplas, diccionarios, etc...
+En Pyton **for** se utiliza muy amenudo para recorrer el contenido de las listas, tuplas, diccionarios, etc...
 Podriamos hacerlo con **while** pero la líneas de código serían mayores
 
 ````python
