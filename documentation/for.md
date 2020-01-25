@@ -30,7 +30,7 @@ for numero in ns:   # Vamos a ir pasandole el contenido de cada índice de (ns) 
 
 ````python
 ns = [1,2,3,4,5,6,7,8,9]
-for indice,numero in enumerate(ns):   # El contenido de (ns) a numero y el índice numérico a índice (RECORRIENDO LA LISTA)
+for indice,numero in enumerate(ns):   # El contenido de (ns) a (numero) y el índice numérico a (indice) (RECORRIENDO LA LISTA)
     ns[indice]*=10 # Multiplicación en asignación (MODIFICANDO LA LISTA)             
     print(ns[indice]) 
 ````
