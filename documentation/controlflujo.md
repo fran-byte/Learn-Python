@@ -6,7 +6,7 @@
 Condicionales
 
 ````python
-if a==5: # El (if) siempre viene precedido de los 2 puntos (:) no olvidarlo, si no, nos reportará un error.
+if a == 5: # El (if) siempre viene precedido de los 2 puntos (:) no olvidarlo, si no, nos reportará un error.
     print("Correcto a = 5") # Observese que el (print) dentro del (if) esta sangrado o identado.
 
 else:
