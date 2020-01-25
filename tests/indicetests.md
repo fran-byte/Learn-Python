@@ -3,7 +3,7 @@
 
 # EJERCICIOS Python 3
 
-#### [ 1- Básicos (primera toma de contacto)](basicos.md)
+#### [ 1- Comenzando (print / input](basicos.md)
 
 #### [ 2- Condicionales](ifelse.md)
 
