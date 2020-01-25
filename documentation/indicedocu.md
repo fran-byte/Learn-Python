@@ -21,6 +21,8 @@
 
 [9. for](/documentation/for.md)
 
+[10. for (Seguimos iterando)](/documentation/for2.md)
+
  
 
 ## Python
