@@ -8,11 +8,14 @@
 ````python
 c = 0
 while c <= 5 : # Se ejecutará mientras c sea menor o igual a 5
-    c+=1
+    
     print("c vale: ",c)
+    c+=1
 print ("El bucle ha finalizado")
 `````
 
+>c vale:  0  
+>
 >c vale:  1
 >
 >c vale:  2
@@ -23,7 +26,4 @@ print ("El bucle ha finalizado")
 >
 >c vale:  5
 >
->c vale:  6
->
 >El bucle ha finalizado
->
