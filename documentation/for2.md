@@ -35,7 +35,7 @@ for i in range(10): # 0 a 9
 >8  
 >9
 
-range (x,y,z)
+**range** (x,y,z)
 
 x = será el inicio desde donde empezará a iterar el (for) (si no se coloca, por defecto será 0)
 
