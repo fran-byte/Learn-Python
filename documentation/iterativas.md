@@ -14,9 +14,9 @@ print ("El bucle ha finalizado")
 `````
 
 >c vale:  1
-c vale:  2
-c vale:  3
-c vale:  4
-c vale:  5
-c vale:  6
-El bucle ha finalizado
+>c vale:  2
+>c vale:  3
+>c vale:  4
+>c vale:  5
+>c vale:  6
+>El bucle ha finalizado
