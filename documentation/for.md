@@ -12,3 +12,13 @@ for numero in ns:   # Vamos a ir pasandole el contenido de cada indice de (ns) a
                     # este indice de (ns) se irá incrementando automáticamente.
     print(numero) 
 ````
+
+>1  
+>2  
+>3   
+>4  
+>5  
+>6  
+>7  
+>8  
+>9  
