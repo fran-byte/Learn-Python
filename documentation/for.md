@@ -70,3 +70,5 @@ for i,a in zip(lista1,lista2): # Cada lista irá volcandose en (i) y (a) respect
 >OCHO 8
 
 >9 NUEVE
+
+El único inconveniente es que ambas listas deben de tener el mismo número de elementos
