@@ -22,6 +22,6 @@ elif a == 15:
     print(a) 
 else:
     print("a no es ni 5 ni 15")
-    if a == 10: # Este (if) lo tenemos anidado dentro del (else)
+    if a == 10: # Este (if) lo tenemos anidado dentro del (else).
         print(a)
 ````
