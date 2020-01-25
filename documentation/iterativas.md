@@ -40,16 +40,21 @@ while True : # Se ejecutará siempre hasta verse interrumpido por la sentencia (
     2- SUMAR 2 Números
     3- SALIR""")
     opcion=input()
+
     if opcion == "1":
         print("HOLA")
+
     elif opcion == "2":
         n1=float(input("N.1: "))
         n2=float(input("N.2: "))
         print(n1,"+",n2,"=",n1+n2)
+
     elif opcion == "3":
         print("PROGRAMA FINALIZADO !!")
         break # Aquí rompemos el bucle
+
     else:
         print("Opción invalida, prueba de nuevo")
+
 print("Estamos fuera del while True (Bucle Infinito)")
 `````
