@@ -8,7 +8,7 @@ En Pyton for se utiliza muy a menudo para recorrer el contenido de las listas, t
 
 ````python
 ns = [1,2,3,4,5,6,7,8,9]
-for numero in ns:   # Vamos a ir pasandole cada indice de (ns) a (numero) y no finalizará hasta recorrerlo entero
-                    # y se irá incrementando automáticamente el indice de (ns)
+for numero in ns:   # Vamos a ir pasandole el contenido de cada indice de (ns) a (numero) y no finalizará hasta recorrerlo entero
+                    # este indice de (ns) se irá incrementando automáticamente.
     print(numero) 
 ````
