@@ -33,7 +33,7 @@ No se pueden utilizar para nombrar variables:
 ### Empezaremos con los tipos que existen, 
 (Aunque profundizaremos más adelante en cada uno de ellos)
 ## Tipo. Cadenas (str) o Strings  ""
-Son texto entre comillas (simples o dobles) y admiten operadores.ç
+Son texto entre comillas (simples o dobles) y admiten operadores.
 
 Son inmutables
 ````python
