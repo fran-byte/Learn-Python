@@ -29,7 +29,7 @@ print ("El bucle ha finalizado")
 >El bucle ha finalizado
 
 ## while True:
-#Construyendo un Bucle Infinito
+# Construyendo un Bucle Infinito
 
 ````python
 
