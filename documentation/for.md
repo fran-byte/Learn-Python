@@ -52,3 +52,9 @@ for i,a in zip(lista1,lista2):
     print(lista1[contador],lista2[contador]) 
     contador+=1
 ````
+
+>1 UNODOS 2
+3 TRESCUATRO 4
+5 CINCOSEIS 6
+7 SIETEOCHO 8
+9 NUEVE
