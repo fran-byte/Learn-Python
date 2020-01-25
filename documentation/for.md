@@ -53,12 +53,20 @@ for i,a in zip(lista1,lista2):
     contador+=1
 ````
 
->1 UNODOS 2
+>1 UNO
 
->3 TRESCUATRO 4
+>DOS 2
 
->5 CINCOSEIS 6
+>3 TRES
 
->7 SIETEOCHO 8
+>CUATRO 4
+
+>5 CINCO
+
+>SEIS 6
+
+>7 SIETE
+
+>OCHO 8
 
 >9 NUEVE
