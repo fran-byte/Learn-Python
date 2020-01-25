@@ -1,4 +1,4 @@
-:page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/índicedocu.md) :pencil: [Ejercicios](/tests/índicetests.md)
+:page_with_curl: [README](../README.md) :books: [Material didáctico](../documentation/índicedocu.md) :pencil: [Ejercicios](/tests/índicetests.md)
 
 
 # 9. for 
