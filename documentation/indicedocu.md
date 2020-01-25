@@ -23,7 +23,7 @@
 
 [10. for (Seguimos iterando)](/documentation/for2.md)
 
- 
+[11. TUPLAS](/documentation/tuplas.md)
 
 ## Python
 
