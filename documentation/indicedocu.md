@@ -19,7 +19,9 @@
 
 [8. SENTENCIAS ITERATIVAS (BUCLES)](/documentation/iterativas.md)
 
+[9. for](/documentation/for.md)
 
+ 
 
 ## Python
 
