@@ -27,3 +27,15 @@ print ("El bucle ha finalizado")
 >c vale:  5
 >
 >El bucle ha finalizado
+
+## while
+#Construyendo un Bucle Infinito
+
+````python
+c = 0
+while c <= 5 : # Se ejecutará mientras c sea menor o igual a 5
+    
+    print("c vale: ",c)
+    c+=1
+print ("El bucle ha finalizado")
+`````
