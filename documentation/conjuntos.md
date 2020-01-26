@@ -1,11 +1,11 @@
 :page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
 # 12. CONJUNTOS { } 
-## Coleción DESORDENADA de elementos ÚNICOS
+## Colección DESORDENADA de elementos ÚNICOS
 
 No pueden contener ningún elemento duplicado.
 
-Su utilidad está asociada a pruebas de pertenencias a grupos y eliminación de elemntos duplicados.
+Su utilidad está asociada a pruebas de pertenencias a grupos y eliminación de elementos duplicados.
 
 ````python
 conjunto1 = set() # Definiendo un conjunto vacío
@@ -19,7 +19,7 @@ print(conjunto1)
 
 >{0, 1, 2, 3}
 
-ELIMINANDO elementos DUPLICADOS de otras Coleciones
+ELIMINANDO elementos DUPLICADOS de otras Colecciones
 
 ````python
 lista1 = [1,2,3,4,4,3,2,1] # Esta lista contiene elementos repetidos
