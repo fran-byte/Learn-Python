@@ -25,6 +25,8 @@
 
 [11. TUPLAS](/documentation/tuplas.md)
 
+[12. CONJUNTOS](/documentation/conjuntos.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
