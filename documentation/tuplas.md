@@ -21,4 +21,4 @@ tupla1[0]=50
 >Traceback (most recent call last):  
   File "main.py", line 2, in <module>  
     tupla1[0]=50  
-TypeError: 'tuple' object does not support item assignment
+TypeError: 'tuple' object **does not support item assignment**
