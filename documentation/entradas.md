@@ -36,9 +36,12 @@ hola
 ````
 Vease en esta ejecución por terminal:
 
-script1.py hola 6
+>script1.py hola 6
 
-Tiene 3 argumentos
-Argumento[0] que es el nombre del archivo: script1.py
-Argumento[1] 'hola'
-Argumento[2] 6
+Tiene 3 argumentos  
+
+Argumento[0] que es el nombre del archivo: script1.py  
+
+Argumento[1] 'hola'  
+
+Argumento[2] 6  
