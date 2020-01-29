@@ -5,7 +5,7 @@
 
 No todo va a ser escribir código en el intérprete, 
 los programas informáticos fucionan de otra forma. Se crean ficheros con las instrucciones y a estos se les llaman scripts (o guiones de instrucciones). 
-Eviamos ese fichero al intérprete (ya que paython es un lenguaje interpretado)desde la terminal, y se ejecutará.  
+Eviamos ese fichero al intérprete desde la terminal (ya que python es un lenguaje interpretado), y se ejecutará.  
 
 A También estos Scripts pueden recibir datos desde el terminal en el momento de la ejecución.
 
