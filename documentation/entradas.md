@@ -35,6 +35,7 @@ hola
 
 ````
 Vease en esta ejecución por terminal:
+
 script1.py hola 6
 
 Tiene 3 argumentos
