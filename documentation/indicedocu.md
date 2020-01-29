@@ -27,6 +27,8 @@
 
 [12. CONJUNTOS](/documentation/conjuntos.md)
 
+[13. DICCIONARIOS](/documentation/diccionarios.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
