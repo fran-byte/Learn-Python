@@ -3,7 +3,7 @@
 # 16. SALIDAS (Formateo)
 ## .format
 
-Con Frecuencia necesitaremos más control sobre el formateo de tu salida, o simplemente imprimir valores separados por
+Con frecuencia necesitaremos más control sobre el formateo de tu salida, o simplemente imprimir valores separados por
 espacios.
 El tipo string contiene algunos métodos útiles para emparejar cadenas, alinear y sacar de una manera elegantecon un determinado ancho; 
 con str.format().
@@ -37,3 +37,8 @@ print("{:.5}".format("palabra"))  # Esta palabra saldrá TRUNCADA, es decir que 
 >                       palabra  
            palabra  
 palab  
+
+````python
+print('{:>30.3}'.format('palabra'))  # TRUNCAMIENTO y MARGEN
+````
+>                           pal
