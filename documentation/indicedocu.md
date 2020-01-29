@@ -29,6 +29,8 @@
 
 [13. DICCIONARIOS](/documentation/diccionarios.md)
 
+[14. Pilas (LIFO) y COLAS (FIFO)](/documentation/diccionarios.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
