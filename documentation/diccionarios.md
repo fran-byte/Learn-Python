@@ -8,7 +8,7 @@ Podemos identificar cada elemento mediante una clave (Key).
 ````python
 color = {'amarillo':'yellow','azul':'blue','verde':'green'}
 print (color['azul'])
-print (color[])
+print (color)
 ````
 >blue  
 {'amarillo': 'yellow', 'azul': 'blue', 'verde': 'green'}
@@ -16,5 +16,11 @@ print (color[])
 Modificando, Borrando, Operando o Mostrando valores de un diccionario.
 
 ````python
-color['amarillo']='YELLOW'
+color['amarillo']='YELLOW'  # Le decimos que esta (clave) tendrá un nuevo (valor)
+print (color['amarillo'])
+
+del(color['amarillo'])
+print (color)
 ````
+>YELLOW  
+{'azul': 'blue', 'verde': 'green'}
