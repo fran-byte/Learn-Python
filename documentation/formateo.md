@@ -39,6 +39,38 @@ print("{:.5}".format("palabra"))  # Esta palabra saldrá TRUNCADA, es decir que 
 palab  
 
 ````python
-print('{:>30.3}'.format('palabra'))  # TRUNCAMIENTO y MARGEN
+print('{:>30.3}'.format('palabra'))  # TRUNCAMIENTO de 3 caracteres y MARGEN de 30 espacios
 ````
 >                           pal
+
+
+- Vamos a formatear números enteros y rellenarlos con espacios a la izquierda:
+
+````python
+print('{:4d}'.format(10)) # Rellenado con espacios (4) número entero(d)
+print('{:4d}'.format(100))
+print('{:4d}'.format(1000))
+````
+
+>  10  
+ 100  
+1000  
+
+````python
+print('{:04d}'.format(10)) # Rellenado con CEROS (4) número entero(d)
+print('{:04d}'.format(100))
+print('{:04d}'.format(1000))
+````
+>0010  
+0100  
+1000  
+
+- Ahora formateamos decimales:
+
+````python
+print('{:07.3f}'.format(42.12345)) 
+````
+>042.123
+
+El número total de caracteres de este margen será el 7, incluido el punto, y el rellenado será ceros que colocamos delante del número 7
+Lo que tenemos después del punto serán los flotantes (Decimales) que serán 3
