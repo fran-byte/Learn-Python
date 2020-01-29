@@ -1,4 +1,4 @@
-# <img src="mdArchives/py.png"/> Python 3 - Ejercicios y Material Didáctico <img src="mdArchives/py.png"/>
+# <img src="mdArchives/py.png"/> Python 3 - Material Didáctico y Ejercicios <img src="mdArchives/py.png"/>
 
 
 Este repositorio pretende ser una introdución a Python 3 basada en ejercicios y su correspondiente documentación.
