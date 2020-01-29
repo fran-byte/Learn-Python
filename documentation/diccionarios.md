@@ -13,7 +13,7 @@ print (color)
 >blue  
 {'amarillo': 'yellow', 'azul': 'blue', 'verde': 'green'}
 
-Modificando, Borrando, Operando o Mostrando valores de un diccionario.
+### Modificando, Borrando, Operando o Mostrando valores de un diccionario.
 
 ````python
 color['amarillo']='YELLOW'  # Le decimos que esta (clave) tendrá un nuevo (valor)
@@ -30,3 +30,18 @@ altura={'Paco':196,'Luis':177,'Alvaro':159}
 print('La suma de la altura de Paco y Alvaro son ',altura["Paco"]+altura['Alvaro'],"Cm")
 ````
 >La suma de la altura de Paco y Alvaro son  355 Cm
+
+### RECORRIENDO los ELEMENTOS del DICCIONARIO
+
+Mostrando tanto las claves como sus valores.
+
+````python
+altura={'Paco':196,'Luis':177,'Alvaro':159}
+for clave in altura:
+    print(clave,altura[clave])
+````
+>Paco 196  
+Luis 177  
+Alvaro 159  
+
+#### Aunque la forma CORRECTA de recorrelo es con items()
