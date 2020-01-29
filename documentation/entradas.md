@@ -14,8 +14,9 @@ Veamos un ejemplo:
 ````python
 import sys
 if len(sys.argv)==3:
-    texto = sys.argv[1]
-    repeticiones = int (sys.argv[2])
+    texto = sys.argv[1] # introducimos en la variable texto el argumento 1 tecleado por terminal
+    repeticiones = int (sys.argv[2])    # introducimos en la variable repeticiones el argumento 2 tecleado por terminal
+                                        # y lo convertimos a entero.
     for i in range(repeticiones):
         print(texto)
 
@@ -34,7 +35,7 @@ hola
 hola
 
 ````
-Vease en esta ejecución por terminal:
+Véase en esta ejecución por terminal:
 
 >script1.py hola 6
 
