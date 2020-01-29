@@ -51,7 +51,7 @@ for c,v in alturas.items(): # vamos a ir volcando la clave en 'c' y el valor en 
     print(c,v)
 ````
 
-### COLECIONES AVANZADAS DICCIONARIO + LISTA
+### COLECCIONES AVANZADAS DICCIONARIO + LISTA
 
 Vamos a crear varios diccionarios e introducirlos en una lista.
 ````python
