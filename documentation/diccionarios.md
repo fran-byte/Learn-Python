@@ -19,8 +19,14 @@ Modificando, Borrando, Operando o Mostrando valores de un diccionario.
 color['amarillo']='YELLOW'  # Le decimos que esta (clave) tendrá un nuevo (valor)
 print (color['amarillo'])
 
-del(color['amarillo'])
+del(color['amarillo']) # Con la función (del) podemos borrar cualquier clave/valor
 print (color)
 ````
 >YELLOW  
 {'azul': 'blue', 'verde': 'green'}
+
+````python
+altura={'Paco':196,'Luis':177,'Alvaro':159}
+print('La suma de la altura de Paco y Alvaro son ',altura["Paco"]+altura['Alvaro'],"Cm")
+````
+>La suma de la altura de Paco y Alvaro son  355 Cm
