@@ -44,4 +44,9 @@ for clave in altura:
 Luis 177  
 Alvaro 159  
 
-#### Aunque la forma CORRECTA de recorrelo es con **items()**
+#### Aunque la forma CORRECTA de recorrelo es con _items()_
+
+````python
+for c,v in alturas.items(): # vamos a ir volcando la clave en 'c' y el valor en 'v'
+    print(c,v)
+````
