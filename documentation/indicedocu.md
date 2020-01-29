@@ -33,6 +33,8 @@
 
 [15. SCRIPTS](/documentation/entradas.md)
 
+[16. SCRIPTS](/documentation/formateo.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
