@@ -31,6 +31,8 @@
 
 [14. Pilas (LIFO) y COLAS (FIFO)](/documentation/pilascolas.md)
 
+[15. SCRIPTS](/documentation/entradas.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
