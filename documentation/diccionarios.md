@@ -44,4 +44,4 @@ for clave in altura:
 Luis 177  
 Alvaro 159  
 
-#### Aunque la forma CORRECTA de recorrelo es con items()
+#### Aunque la forma CORRECTA de recorrelo es con **items()**
