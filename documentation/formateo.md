@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 17. SALIDAS (Formateo)
+# 16. SALIDAS (Formateo)
 ## .format
 
 Con Frecuencia necesitaremos más control sobre el formateo de tu salida, o simplemente imprimir valores separados por
