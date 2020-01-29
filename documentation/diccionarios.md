@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 12. DICCIONARIOS {Clave:Valor} 
+# 13. DICCIONARIOS {Clave:Valor} 
 ## Colecciones DESORDENADAS
 
 Es una estructura de datos que pueden contener cualquier tipo de ellos: enteros, cadenas, listas e incluso otras funciones.
