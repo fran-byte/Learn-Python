@@ -50,3 +50,24 @@ Alvaro 159
 for c,v in alturas.items(): # vamos a ir volcando la clave en 'c' y el valor en 'v'
     print(c,v)
 ````
+
+#### COLECIONES AVANZADAS DICCIONARIO + LISTA
+
+Vamos a crear varios diccionarios e introducirlos en una lista.
+````python
+personajes=[] # Creamos una lista vacía
+
+p={'Nombre':'Gandalf','Clase':'Mago','Raza':'Humano'} # Creamos un diccionario
+personajes.append(p) # añadimos ese diccionario a la lista (p)
+
+p={'Nombre':'Legolas','Clase':'Arquero','Raza':'Elfo'} # Volvemos a crear otro personaje
+personajes.append(p) # Lo añadimos a la lista
+
+# RECORREMOS la lista (p) creada
+
+for p in personajes:
+  print(p['Nombre'],p['Clase'],p['Raza'])
+````
+
+>Gandalf Mago Humano  
+Legolas Arquero Elfo
