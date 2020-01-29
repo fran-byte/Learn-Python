@@ -7,6 +7,14 @@ Es una estructura de datos que pueden contener cualquier tipo de dato: enteros, 
 Podemos identificar cada elemento mediante una clave (Key).
 ````python
 color = {'amarillo':'yellow','azul':'blue','verde':'green'}
-print (color[azul])
+print (color['azul'])
+print (color[])
 ````
->'blue'
+>blue  
+{'amarillo': 'yellow', 'azul': 'blue', 'verde': 'green'}
+
+Modificando, Borrando, Operando o Mostrando valores de un diccionario.
+
+````python
+color['amarillo']='YELLOW'
+````
