@@ -33,7 +33,7 @@
 
 [15. SCRIPTS](/documentation/entradas.md)
 
-[16. SCRIPTS](/documentation/formateo.md)
+[16. FORMATEO](/documentation/formateo.md)
 
 ## Python
 
