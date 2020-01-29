@@ -3,6 +3,8 @@
 # 12. DICCIONARIOS {Clave:Valor} 
 ## Colecciones DESORDENADAS
 
+Es una estructura de datos que pueden contener cualquier tipo de dato: enteros, cadenas, listas e incluso otras funciones.
+Podemos identificar cada elemento mediante una clave (Key).
 ````python
 color = {'amarillo':'yellow','azul':'blue','verde':'green'}
 print (color[azul])
