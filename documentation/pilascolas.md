@@ -3,7 +3,7 @@
 # 14. PILAS(LIFO) y COLAS(FIFO)
 ## PILAS = Last In First Out, .append() .pop()
 
-En Python no existen las PILAS, asi que la solución para crear esa PILA abstracta la mejor soluciión seria crear un objeto mediante una clase,
+En Python no existen las PILAS, asi que la solución para crear esa PILA abstracta la mejor solución sería crear un objeto mediante una clase,
  pero eso lo veremos más adelante.
 ahora la simularemos de esta manera:
 
