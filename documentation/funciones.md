@@ -67,6 +67,7 @@ print(n)
 >10
 
 ## Si lo que deseamos es que nos "funcione" el paso por VALOR en una variable
+Vamos a retornar el resultado y no la variable.
 
 ````python
 def doblar_valor(numero):
