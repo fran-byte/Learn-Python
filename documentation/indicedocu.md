@@ -35,7 +35,7 @@
 
 [16. FORMATEO](/documentation/formateo.md)
 
-[19. FUNCIONES](/documentation/funciones.md)
+[17. FUNCIONES](/documentation/funciones.md)
 
 ## Python
 
