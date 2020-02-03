@@ -35,6 +35,8 @@
 
 [16. FORMATEO](/documentation/formateo.md)
 
+[19. FUNCIONES](/documentation/funciones.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
