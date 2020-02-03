@@ -65,6 +65,19 @@ doblar_valor(n)
 print(n) 
 ````
 >10
+
+## Si lo que deseamos es que nos "funcione" el paso por VALOR en una variable
+
+````python
+def doblar_valor(numero):
+    return numero*2 # Pasamos el resultado y no la variable
+
+n = 10 
+n=doblar_valor(n)
+print(n) 
+````
+>20
+
 ## Pasando Argumentos por REFERENCIA
 
 Por otro lado las listas u otras colecciones, como son tipos compuestos se pasan por REFERENCIA, 
@@ -81,17 +94,7 @@ print (ns)
 ````
 >[20, 100, 200]
 
-## Si lo que deseamos es que nos "funcione" el paso por VALOR en una variable
 
-````python
-def doblar_valor(numero):
-    return numero*2 # Pasamos el resultado y no la variable
-
-n = 10 
-n=doblar_valor(n)
-print(n) 
-````
->20
 
 ## También podemos CREAR una COPIA de la llamada para Evitar Modificaciones
 ````python
