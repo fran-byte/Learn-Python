@@ -39,6 +39,8 @@
 
 [18. FUNCIONES II](/documentation/funcionesii.md)
 
+[19. FUNCIONES III](/documentation/funcionesiii.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
