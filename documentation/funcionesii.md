@@ -8,17 +8,18 @@ Para estos casos utilizaremos los parámetros indeterminados por posición y por
 ## Argumentos INDETERMINADOS por POSICIÓN y NOMBRE
 ## por POSICIÓN
 
-Para recibir un número indeterminado de parámetros por posición,
+Recibiendo parametros indeterminados por posición,
 
-debemos crear una lista dinámica de argumentos (una tupla en realidad) definiendo el parámetro con un asterisco:
+Envíamos una lista dínámica, una tupla realmente, y para eso definimos el parámetro con un asterisco:
 
 ````python
 def indet_pos(*args): ## (args) no es una palabra reservada, pero cuando usamos argumentos sí que la ponemos
     for arg in args:
         print(arg)
 
-indet_pos(5,"Hola",[1,2,3,4,5])
+indet_pos("Phyton","Hola",3,[1,2,3,4,5])
 ````
->5  
+>Phyton  
 Hola  
-[1, 2, 3, 4, 5]
+3  
+>[1, 2, 3, 4, 5]
