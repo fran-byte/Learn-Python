@@ -39,7 +39,8 @@ Valor inicial -> 4
 Valor inicial -> 3  
 Valor inicial -> 2  
 Valor inicial -> 1  
-valor final -> 1valor final -> 2  
+valor final -> 1  
+valor final -> 2  
 valor final -> 6  
 valor final -> 24  
 valor final -> 120  
