@@ -5,8 +5,7 @@ En ocasiones no conocemos el número de elementos que vamos a enviar a una funci
 
 Para estos casos utilizaremos los parámetros indeterminados por posición y por nombre.
 
-## Argumentos INDETERMINADOS por POSICIÓN y NOMBRE
-## por POSICIÓN
+## Argumentos INDETERMINADOS por POSICIÓN 
 
 Recibiendo parametros indeterminados por posición,
 
@@ -23,7 +22,7 @@ indet_pos("Phyton","Hola",3,[5,53,21,5])
 Hola  
 3  
 >[5, 53, 21, 5]
-## por NOMBRE (o Clave)
+## Argumentos INDETERMINADOS por NOMBRE (o Clave)
 Recibiendo parámetros por nombre (keyword args)
 
 Evidentemente tenemos que crear un diccionario dinámico con estos argumentos y para ello definimos el parámetro con dos asteriscos:
