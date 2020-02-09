@@ -41,7 +41,7 @@
 
 [19. FUNCIONES III](/documentation/funcionesiii.md)
 
-[20. FUNCIONES III](/documentation/funcionesint.md)
+[20. FUNCIONES INTEGRADAS](/documentation/funcionesint.md)
 
 ## Python
 
