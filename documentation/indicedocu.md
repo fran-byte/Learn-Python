@@ -41,6 +41,8 @@
 
 [19. FUNCIONES III](/documentation/funcionesiii.md)
 
+[20. FUNCIONES III](/documentation/funcionesint.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
