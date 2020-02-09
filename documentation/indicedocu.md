@@ -43,6 +43,8 @@
 
 [20. FUNCIONES INTEGRADAS](/documentation/funcionesint.md)
 
+[21. ERRORES](/documentation/errores.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
