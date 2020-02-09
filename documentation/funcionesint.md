@@ -8,9 +8,6 @@ Algunas de las funciones:
 Transforma una cadena a un entero (si no es posible da error):
 
 ````python
-
-
-
 n = int("10")
 print(n)
 ````
@@ -20,9 +17,6 @@ print(n)
 Transforma una cadena a un flotante (si no es posible da error):
 
 ````python
-
-
-
 f = float("10.5")
 print(f)
 ````
@@ -31,9 +25,6 @@ print(f)
 Transforma cualquier valor a una cadena:
 
 ````python
-
-
-
 c = "Un texto y dos números " + str(10) + " y " + str(3.14)
 print(c)
 ````
@@ -43,9 +34,6 @@ print(c)
 Conversión de entero a binario:
 
 ````python
-
-
-
 print (bin(10))
 ````
 >0b1010
@@ -60,11 +48,6 @@ Conversión de entero a hexadecimal:
 int(numero, base)
 Reconversión a entero (base 10):
 ````python
-
-
-
-
-
 print(int('0b1010', 2))
 print(int('0xa', 16))
 ````
@@ -73,19 +56,13 @@ print(int('0xa', 16))
 Valor absoluto de un número (distancia):
 
 ````python
-
-
 print(abs(-10))
-
 ````
 >10
 ## round()
 Redondeo de un flotante a entero, menor de .5 a la baja, mayor o igual a .5 al alza:
 
 ````python
-
-
-
 print(round(5.5))
 print(round(5.4))
 ````
@@ -94,16 +71,10 @@ print(round(5.4))
 ##eval()
 Evalúa una cadena como una expresión, acepta variables si se han definido anteriormente:
 ````python
-
-
-
 print(eval('2 + 5'))
 ````
 >7
 ````python
-
-
-
 n = 10
 
 print(eval('n * 10 - 5'))
@@ -114,9 +85,6 @@ print(eval('n * 10 - 5'))
 Longitud de una colección o cadena:
 
 ````python
-
-
-
 print(len("Una cadena"))
 print(len([]))
 ````
@@ -126,9 +94,6 @@ print(len([]))
 Invoca el menú de ayuda del intérprete de Python:
 
 ````python
-
-
-
 help()
 ````
 >Welcome to Python 3.7's help utility!
