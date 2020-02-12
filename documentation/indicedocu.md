@@ -49,6 +49,8 @@
 
 [23. EXCEPCIONES MULTIPLES](/documentation/excepcionesmul.md)
 
+[24. INVOCANDO EXCEPCIONES](/documentation/invo.md)
+
 
 
 ## Python
