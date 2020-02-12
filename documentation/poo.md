@@ -2,7 +2,7 @@
 
 # 25. POO 
 
-##Clases y objetos
+## Clases y objetos
 La base de la POO son los objetos.
 
 Podéis imaginaros los objetos como un nuevo tipo de dato cuya definición viene dada en una estructura llamada clase.
@@ -13,7 +13,7 @@ En otras palabras, las galletas comparten un proceso de fabricación y unos atri
 
 Extrapolando el ejemplo, una clase es sólo un guión sobre como deben ser los objetos que se crearán con ella.
 
-##La función type()
+## La función type()
 Ya he comentado varias veces que en Python todo son clases y objetos, eso se puede comprobar fácilmente pasando a la función type() cualquier variable o literal:
 
 
@@ -34,14 +34,14 @@ def hola():
 type(hola)
 ````
 
-#Definición de clase
+# Definición de clase
 La sintaxis es muy sencilla:
 ````python
 lass Galleta:
     pass
 ````
 Esta es una definición muy simple de lo que es una galleta, ya que con el pass la dejo vacía. Luego añadiremos más información, por ahora veamos como crear galletas con este molde.
-##Instancias de clase
+## Instancias de clase
 Para entender bien los objetos debemos tener claras dos cuestiones fundamentales:
 
 ¿Cuándo y dónde existen los objetos?
@@ -97,13 +97,13 @@ Galleta
 Resumiendo: los objetos son instancias de una clase.
 
 
-##Atributos y métodos
+## Atributos y métodos
 Si hay algo que ilustre el potencial de la POO esa es la capacidad de definir variables y funciones dentro de las clases, aunque aquí se conocen como atributos y métodos respectivamente.
 
-#Atributos
+# Atributos
 A efectos prácticos los atributos no son muy distintos de las variables, la diferencia fundamental es que sólo existen dentro del objeto.
 
-#Atributos dinámicos
+# Atributos dinámicos
 Dado que Python es muy flexible los atributos pueden manejarse de distintas formas, por ejemplo se pueden crear dinámicamente (al vuelo) en los objetos.
 
 ````python
@@ -123,7 +123,7 @@ print(f"El sabor de esta galleta es {galleta.sabor} "
 
 >El sabor de esta galleta es Salado y el color Marrón
 
-##Atributos de clase
+## Atributos de clase
 Aunque la flexibilidad de los atributos dinámicos puede llegar a ser muy útil, tener que definir los atributos de esa forma es tedioso. Es más práctico definir unos atributos básicos en la clase. De esa manera todas las galletas podrían tener unos atributos por defecto:
 
 
@@ -186,7 +186,7 @@ else:
 
 
 
-##Métodos
+## Métodos
 Si por un lado tenemos las "variables" de las clases, por otro tenemos sus "funciones", que evidentemente nos permiten definir funcionalidades para llamarlas desde las instancias.
 
 Definir un método es bastante simple, sólo tenemos que añadirlo en la clase y luego llamarlo desde el objeto con los paréntesis, como si de una función se tratase:
@@ -322,12 +322,12 @@ print(galleta.chocolate)
 
 Sea como sea con este ejemplo podemos entender que por defecto el valor de un atributo se busca en la clase, pero para modificarlo en la instancia es necesario hacer referencia al objeto.
 
-##Métodos especiales
+## Métodos especiales
 Ahora que sabemos crear métodos y hemos aprendido para qué sirve el argumento self, es momento de introducir algunos métodos especiales de las clases.
 
 Se llaman especiales porque la mayoría ya existen de forma oculta y sirven para tareas específicas.
 
-##Constructor
+## Constructor
 El constructor es un método que se llama automáticamente al crear un objeto, se define con el nombre init:
 ````python
 
@@ -362,7 +362,7 @@ Se acaba de crear una galleta blanca y dulce.
 
 Como los métodos se comportan como funciones tienen sus mismas características, permitiéndonos definir valores nulos, valores por posición y nombre, argumentos indeterminadas, etc.
 
-##Destructor
+## Destructor
 Si existe un constructor también debe existir un destructor que se llame al eliminar el objeto para que encargue de las tareas de limpieza como vaciar la memoria. Ese es el papel del método especial del. Es muy raro sobreescribir este método porque se maneja automáticamente, pero es interesante saber que existe.
 
 Todos los objetos se borran automáticamente de la memoria al finalizar el programa, aunque también podemos eliminarlos automáticamente pasándolos a la función del():
@@ -385,7 +385,7 @@ del(galleta)
 En este punto vale comentar algo respecto a los métodos especiales como éste, y es que pese a que tienen accesores en forma de función para facilitar su llamada, es totalmente posible ejecutarlos directamente como si fueran métodos normales:
 Si tenéis memoria seguro que ahora mismo os estáis acordando de funciones como str() y len(), y es que en efecto, esas también son accesores de los métodos especiales str y len que tienen los objetos.
 
-##String
+## String
 El método str es el que devuelve la representación de un objeto en forma de cadena. Un momento en que se llama automáticamente es cuando imprimirmos una variable por pantalla.
 
 Por defecto los objetos imprimen su clase y una dirección de memoria, pero eso puede cambiarse sobreescribiendo el comportamiento:
@@ -415,7 +415,7 @@ Soy una galleta blanca y dulce.
 
 Hay que tener en cuenta que este método debe devolver la cadena en lugar de mostrar algo por pantalla, ese es el funcionamiento que se espera de él.
 
-##Length
+## Length
 Finalmente otro método especial interesante es el que devuelve la longitud. Normalmente está ligado a colecciones, pero nada impide definirlo en una clase. Y sí, digo definirlo y no redefinirlo porque por defecto no existe en los objetos aunque sea el que se ejecuta al pasarlos a la función len().
 
 ````python
