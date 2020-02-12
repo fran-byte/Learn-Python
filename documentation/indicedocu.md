@@ -51,7 +51,9 @@
 
 [24. INVOCANDO EXCEPCIONES](/documentation/invo.md)
 
-[25. POO](/documentation/poo.md)
+[25. POO / CLASES](/documentation/poo.md)
+
+[26. ATRIBUTOS y MÉTODOS](/documentation/atributosmetodos.md)
 
 
 
