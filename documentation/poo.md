@@ -97,13 +97,13 @@ Galleta
 Resumiendo: los objetos son instancias de una clase.
 
 
-## Atributos y métodos
+# Atributos y métodos
 Si hay algo que ilustre el potencial de la POO esa es la capacidad de definir variables y funciones dentro de las clases, aunque aquí se conocen como atributos y métodos respectivamente.
 
-# Atributos
+## Atributos
 A efectos prácticos los atributos no son muy distintos de las variables, la diferencia fundamental es que sólo existen dentro del objeto.
 
-# Atributos dinámicos
+## Atributos dinámicos
 Dado que Python es muy flexible los atributos pueden manejarse de distintas formas, por ejemplo se pueden crear dinámicamente (al vuelo) en los objetos.
 
 ````python
