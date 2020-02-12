@@ -13,17 +13,45 @@ funcion_error()
 
 ## raise
 
-Gracias a raise podemos lanzar un error manual pasándole el identificador.
-Luego simplemente podemos añadir un except para tratar esta excepción que hemos lanzado:
+En ciertas ocasiones es posible identificar una situación en la que cierta condición provocará un error. En ese caso se puede levantar una excepción antes de que el error ocurra y emitir un mensaje correspondiente.
+
+La expresión raise se utiliza para levantar excepciones definidas por el programador
 
 ````python
-def mi_funcion(algo=None):
-    try:
-        if algo is None:
-            raise ValueError("Error! No se permite un valor nulo")
-    except ValueError:
-        print("Error! No se permite un valor nulo (desde la excepción)")
+def levanta_excepcion(numero):
+    """ Levantará una excepción con un mensaje propio en caso de que
+        el número ingresado sea negativo.
+        El programa pedirá un número y desplegará la raíz cuadrado de dicho número.
+        En caso de que ocurra un error definido, el programa desplegará el mensaje
+        correspondiente."""
 
-mi_funcion()
+    ocurre_error = True
+
+    try:
+        if numero < 0:
+            raise TypeError("No es posible calcular la raíz de un negativo.")
+        print("La raíz cuadrada de %.2f es %.2f" % (numero, numero ** 0.5))
+    except (TypeError) as mensaje:
+        print("Ocurrió una excepción identificada.", mensaje)
+    except ValueError as mensaje:
+        print(mensaje)
+    except:
+        print("¡No sé qué pasó!")
+    else:
+        print("No hubo errorres.")
+        ocurre_error = False
+    finally:
+        if ocurre_error:
+            print("Lástima.")
+        else:
+            print("¡YAY!")
+
+levanta_excepcion(25)
+print("\n")
+
+levanta_excepcion(-1)
+print("\n")
+
+levanta_excepcion(7j)
+
 ````
->Error! No se permite un valor nulo (desde la excepción)
