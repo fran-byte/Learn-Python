@@ -45,6 +45,10 @@
 
 [21. ERRORES](/documentation/errores.md)
 
+[22. EXCEPCIONES](/documentation/excepciones.md)
+
+
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
