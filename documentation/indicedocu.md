@@ -57,6 +57,8 @@
 
 [27. OBJETOS dentro de OBJETOS](/documentation/objetodentro.md)
 
+[28. ENCAPSULACIÓN](/documentation/encap.md)
+
 
 ## Python
 
