@@ -59,6 +59,8 @@
 
 [28. ENCAPSULACIÓN](/documentation/encap.md)
 
+[29. HERENCIA](/documentation/herencia.md)
+
 
 ## Python
 
