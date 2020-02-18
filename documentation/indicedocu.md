@@ -55,7 +55,7 @@
 
 [26. ATRIBUTOS y MÉTODOS](/documentation/atributosmetodos.md)
 
-[27. OBJETOS dentro de OBJETOS](/documentation/objetosdentro.md)
+[27. OBJETOS dentro de OBJETOS](/documentation/objetodentro.md)
 
 
 ## Python
