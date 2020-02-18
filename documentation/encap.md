@@ -16,7 +16,7 @@ e = Ejemplo()
 print(e.__atributo_privado)
 ````
 >---------------------------------------------------------------------------
-AttributeError                            Traceback (most recent call last)
+>AttributeError                            Traceback (most recent call last)
 <ipython-input-3-eed1a613919b> in <module>()
 ----> 1 print(e.__atributo_privado)
 
@@ -35,11 +35,11 @@ e = Ejemplo()
 e.__metodo_privado()
 ````
 ---------------------------------------------------------------------------
-AttributeError                            Traceback (most recent call last)
+>AttributeError                            Traceback (most recent call last)
 <ipython-input-5-81c514698440> in <module>()
 ----> 1 e.__metodo_privado()
 
-AttributeError: 'Ejemplo' object has no attribute '__metodo_privado'
+>AttributeError: 'Ejemplo' object has no attribute '__metodo_privado'
 
 Sea como sea para acceder a esos datos se deberían crear métodos públicos que hagan de interfaz. 
 En otros lenguajes les llamaríamos getters y setters y es lo que da lugar a las propiedades, 
