@@ -61,6 +61,8 @@
 
 [29. HERENCIA](/documentation/herencia.md)
 
+[30. HERENCIA MULTIPLE](/documentation/herenciam.md)
+
 
 ## Python
 
