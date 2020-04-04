@@ -65,6 +65,8 @@
 
 [31. MÉTODOS CADENAS](/documentation/MetodosCadenas.md)
 
+[32. MÉTODOS LISTAS](/documentation/MetodosListas.md)
+
 
 ## Python
 
