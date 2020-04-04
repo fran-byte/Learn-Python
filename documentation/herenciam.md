@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 30. HERENCIA MULTIPLE
+# 31. MÉTODOS - CADENAS
 
 Finalmente hablemos de la herencia múltiple: la capacidad de una subclase de heredar de múltiples superclases.
 

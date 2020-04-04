@@ -63,6 +63,8 @@
 
 [30. HERENCIA MULTIPLE](/documentation/herenciam.md)
 
+[31. MÉTODOS CADENAS](/documentation/MetodosCadenas.md)
+
 
 ## Python
 
