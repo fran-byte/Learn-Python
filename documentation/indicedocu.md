@@ -69,6 +69,8 @@
 
 [33. MÉTODOS CONJUNTOS](/documentation/MetodosConjuntos.md)
 
+[34. MÉTODOS DICCIONARIOS](/documentation/MetodosDiccionarios.md)
+
 
 ## Python
 
