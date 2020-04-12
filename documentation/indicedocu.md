@@ -67,6 +67,8 @@
 
 [32. MÉTODOS LISTAS](/documentation/MetodosListas.md)
 
+[32. MÉTODOS CONJUNTOS](/documentation/MetodosLConjuntos.md)
+
 
 ## Python
 
