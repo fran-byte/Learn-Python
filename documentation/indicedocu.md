@@ -71,7 +71,7 @@
 
 [34. MÉTODOS DICCIONARIOS](/documentation/MetodosDiccionarios.md)
 
-
+[35. MÓDULOS](/documentation/Modulos.md)
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
