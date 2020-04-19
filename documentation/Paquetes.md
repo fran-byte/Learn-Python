@@ -71,9 +71,8 @@ Como véis los paquetes son muy útiles, pero si intentamos ejecutarlos desde un
 
 ## Distribución
 Para crear un paquete distribuible tenemos que crear un fichero setup.py fuera de la raíz, indicando una información básica, de la siguiente forma:
-
+> setup.py
 ````python
-setup.py
 paquete/
     __init__.py
     hola/
