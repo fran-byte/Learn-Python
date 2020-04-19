@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 35. MÓDULOS
+# 36. PAQUETES
 
 Crear un módulo en Python es tan sencillo como crear un script, sólo tenemos que añadir alguna función a un fichero con la extensión .py, 
 
