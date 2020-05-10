@@ -74,6 +74,9 @@
 [35. MÓDULOS](/documentation/Modulos.md)
 
 [36. PAQUETES](/documentation/Paquetes.md)
+
+[37. MODULOS ESTANDAR](/documentation/ModulosEstandar.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
