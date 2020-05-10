@@ -75,7 +75,9 @@
 
 [36. PAQUETES](/documentation/Paquetes.md)
 
-[37. MODULOS ESTANDAR](/documentation/ModulosEstandar.md)
+[37. MÓDULOS ESTANDAR](/documentation/ModulosEstandar.md)
+
+[38. MÓDULOS ESTANDAR](/documentation/collections.md)
 
 ## Python
 
