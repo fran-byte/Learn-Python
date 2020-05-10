@@ -77,7 +77,7 @@
 
 [37. MÓDULOS ESTANDAR](/documentation/ModulosEstandar.md)
 
-[38. MÓDULOS ESTANDAR](/documentation/collections.md)
+[38. MÓDULO COLLECTIONS](/documentation/collections.md)
 
 ## Python
 
