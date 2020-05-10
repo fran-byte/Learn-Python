@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 37. Modulos Estandar
+# 37. Módulos Estandar
 
 ## copy: 
 Ya conocemos el módulo copy, lo hemos utilizado para crear copias de variables referenciadas en memoria, como colecciones y objetos.
