@@ -127,5 +127,27 @@ hace_dos_semanas = dt - t
 print(hace_dos_semanas.strftime("%A %d de %B del %Y - %H:%M"))
 ````
 >Tuesday 01 de September del 2020 - 17:57
+
 >Tuesday 15 de September del 2020 - 22:14
+
 >Tuesday 18 de August del 2020 - 13:41
+
+## Zonas horarias
+
+Para establecer zonas horarias en nuestras fechas y horas necesitamos instalar el módulo pytz desde Anaconda Prompt:
+
+> pip install pytz
+
+Una vez instalado podemos consultar las diferentes zonas horarias disponibles con:
+
+````python
+print(pytz.all_timezones)
+````
+Ahora por ejemplo para crear la hora actual en Tokyo (Japón) haríamos lo siguiente:
+
+````python
+dt = datetime.now(pytz.timezone('Asia/Tokyo'))
+print(dt.strftime("%A %d de %B del %Y - %H:%M"))  # %I 12h - %H 24h
+````
+
+> martes 1 de septiembre del 2020 - 20:02
