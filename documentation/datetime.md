@@ -39,3 +39,6 @@ print("{}/{}/{}".format(dt.day, dt.month, dt.year))
 
 >print("{}:{}:{}".format(dt.hour, dt.minute, dt.second))
 >print("{}/{}/{}".format(dt.day, dt.month, dt.year))
+
+Es posible crear un datetime manualmente pasando los parámetros (year, month, day, hour=0, minute=0, second=0, microsecond=0, tzinfo=None).
+Sólo son obligatorios el año, el mes y el día.
