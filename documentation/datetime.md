@@ -61,7 +61,7 @@ dt.year = 2050
 
 > ---------------------------------------------------------------------------
 > AttributeError                            Traceback (most recent call last)
-> <ipython-input-18-f655491f2afa> in <module>()
+> ipython-input-18-f655491f2afa in <module>()
 > ----> 1 dt.year = 3000
 >
 >AttributeError: attribute 'year' of 'datetime.date' objects is not writable
