@@ -41,4 +41,38 @@ print("{}/{}/{}".format(dt.day, dt.month, dt.year))
 >print("{}/{}/{}".format(dt.day, dt.month, dt.year))
 
 Es posible crear un datetime manualmente pasando los parámetros (year, month, day, hour=0, minute=0, second=0, microsecond=0, tzinfo=None).
+
 Sólo son obligatorios el año, el mes y el día.
+
+
+````python
+from datetime import datetime
+
+dt = datetime(2000,1,1)
+print(dt)
+````
+
+> datetime.datetime(2000, 1, 1, 0, 0)
+
+No podemos cambiarlo al vuelo:
+````python
+dt.year = 2050
+````
+
+>---------------------------------------------------------------------------
+>AttributeError                            Traceback (most recent call last)
+><ipython-input-18-f655491f2afa> in <module>()
+>----> 1 dt.year = 3000
+>
+>AttributeError: attribute 'year' of 'datetime.date' objects is not writable
+
+Tendremos que usar método replace:
+
+````python
+dt = dt.replace(year=3000)
+print(dt)
+````
+> datetime.datetime(3000, 1, 1, 0, 0)
+
+## Formateos
+Formato automático ISO (Organización Internacional de Normalización):
