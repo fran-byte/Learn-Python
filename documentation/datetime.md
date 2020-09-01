@@ -78,3 +78,54 @@ print(dt)
 
 ## Formateos
 Formato automático ISO (Organización Internacional de Normalización):
+
+````python
+from datetime import datetime
+dt = datetime.now()
+print(dt.isoformat())
+````
+> from datetime import datetime
+
+Formateo munual (inglés por defecto):
+
+````python
+from datetime import datetime
+
+dt = datetime.now()
+
+print(dt.strftime("%A %d %B %Y %I:%M"))
+````
+> Tuesday 01 September 2020 05:46
+
+El Inglés es el idioma por defecto, aunque se puede modificar:
+
+````python
+import locale
+
+# Idioma "es-ES" (código para el español de España)
+locale.setlocale(locale.LC_ALL, 'es-ES') 
+
+print(dt.strftime("%A %d %B %Y %I:%M"))
+print(dt.strftime("%A %d de %B del %Y - %H:%M"))  # %I 12h - %H 24h
+````
+## Operaciones
+Podemos sumar y restar tiempo con la función timedelta():
+
+````python
+from datetime import datetime, timedelta
+
+dt = datetime.now()
+print(dt.strftime("%A %d de %B del %Y - %H:%M"))
+
+# Generamos 14 días con 4 horas y 1000 segundos de tiempo
+t = timedelta(days=14, hours=4, seconds=1000)
+
+# Lo operamos con el datetime de la fecha y hora actual
+dentro_de_dos_semanas = dt + t
+print(dentro_de_dos_semanas.strftime("%A %d de %B del %Y - %H:%M"))
+hace_dos_semanas = dt - t
+print(hace_dos_semanas.strftime("%A %d de %B del %Y - %H:%M"))
+````
+>Tuesday 01 de September del 2020 - 17:57
+>Tuesday 15 de September del 2020 - 22:14
+>Tuesday 18 de August del 2020 - 13:41
