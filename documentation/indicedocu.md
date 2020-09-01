@@ -79,6 +79,8 @@
 
 [38. MÓDULO COLLECTIONS](/documentation/collections.md)
 
+[39. DATE TIME](/documentation/datetime.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
