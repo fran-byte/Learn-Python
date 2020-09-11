@@ -81,6 +81,8 @@
 
 [39. MÓDULO datetime](/documentation/datetime.md)
 
+[40. MÓDULO math](/documentation/math.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
