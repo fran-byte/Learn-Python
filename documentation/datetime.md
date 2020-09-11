@@ -71,7 +71,7 @@ dt.year = 2050
 Tendremos que usar método replace:
 
 ````python
-dt = dt.replace(year=3000) // Duplica y reemplaza la fecha por 3000, pero dt.year sigue valiendo 2000
+dt = dt.replace(year=3000) # Duplica y reemplaza la fecha por 3000, pero dt.year sigue valiendo 2000
 print(dt)
 ````
 > datetime.datetime(3000, 1, 1, 0, 0)
