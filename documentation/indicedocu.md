@@ -83,6 +83,8 @@
 
 [40. MÓDULO math](/documentation/math.md)
 
+[41. MÓDULO random](/documentation/math.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
