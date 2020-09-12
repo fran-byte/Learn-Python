@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 39. Módulo random
+# 41. Módulo random
 
 
 Este módulo contiene funciones para generar números aleatorios:
@@ -48,7 +48,9 @@ random.sample([1,2,3,4,5], 2)
 ````
 
 > o
+>
 > 3
+>
 > [3, 4]
 
 ## Mezclas
