@@ -28,10 +28,15 @@ print(random.randrange(0,101,2))
 print(random.randrange(0,101,5))
 ````
 >0.12539542779843138
+>
 >6.272300429556777
+>
 >7
+>
 >14
+>
 >68
+>
 >25
 
 ## Muestras
