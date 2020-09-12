@@ -83,7 +83,7 @@
 
 [40. MÓDULO math](/documentation/math.md)
 
-[41. MÓDULO random](/documentation/math.md)
+[41. MÓDULO random](/documentation/random.md)
 
 ## Python
 
