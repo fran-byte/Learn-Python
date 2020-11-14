@@ -87,6 +87,8 @@
 
 [42. FICHEROS de TEXTO](/documentation/texto.md)
 
+[42. Tkinter](/documentation/tkinter.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
