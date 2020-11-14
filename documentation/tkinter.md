@@ -2,160 +2,24 @@
 
 
 # 43. Interfaces gráficas con Tkinter
-## Creación y Escritura
 
-````python
-from io import open
+Las interfaces gráficas son medios visuales, mucho más cómodos que una terminal de texto, a través de las cuales nuestros usuarios pueden interactuar y realizar tareas gráficamente.
 
-texto = "Una línea con texto\nOtra línea con texto"
+## Widgets
+El módulo Tkinter cuenta con una serie de componentes gráficos llamados Widgets, gracias a los cuales podemos diseñar nuestras interfaces.
 
-# Ruta donde crearemos el fichero, w indica escritura (puntero al principio)
-fichero = open('fichero.txt','w')  
+Los widgets deben seguir una jerarquía a la hora de añadirse a la interfaz. Por ejemplo, un Marco (frame) forma parte del objeto raíz Tk. Y a su vez, un botón (button) puede formar parte de un contenedor como la raíz o un marco.
 
-# Escribimos el texto
-fichero.write(texto) 
-
-# Cerramos el fichero
-fichero.close()
-````
-
-## Lectura
-````python
-from io import open
-
-# Ruta donde leeremos el fichero, r indica lectura (por defecto ya es r)
-fichero = open('fichero.txt','r')  
-
-# Lectura completa
-texto = fichero.read() 
-
-# Cerramos el fichero
-fichero.close()  
-
-print(texto)
-````
-
->Una línea con texto
->
->Otra línea con texto
-
-Podemos usar el método readlines() del fichero para generar una lista con las líneas:
-````python
-from io import open
-fichero = open('fichero.txt','r')
-
-# Leempos creando una lista de líneas
-texto = fichero.readlines()
-
-fichero.close()
-print(texto)
-````
-
-> ['Una línea con texto\n', 'Otra línea con texto\n']
-
-También se puede leer un fichero utilizando la instrucción estándar with de la siguiente forma:
-
-````python
-with open("fichero.txt", "r") as fichero:
-    for linea in fichero:
-        print(linea)
-````
->Una línea con texto
->
->Otra línea con texto
-
-## Extensión
-Este modo nos permite añadir datos al final de un fichero:
-
-````python
-from io import open
-
-# Ruta donde leeremos el fichero, a indica extensión (puntero al final)
-fichero = open('fichero.txt','a')  
-
-fichero.write('\nOtra línea más abajo del todo')
-
-fichero.close()
-````
-
-La variante 'a+' permite crear el fichero si no existe:
-````python
-fichero = open('fichero_inventado.txt','a+')
-````
-
-## Manejando el puntero
-Es posible posicioar el puntero en el fichero manualmente usando el método seek e indicando un número de caracteres para luego leer una cantidad de caracteres con el método read:
-
-````python
-fichero = open('fichero.txt','r')
-fichero.seek(0)   # Puntero al principio
-fichero.read(10)  # Leemos 10 carácteres
-````
-> 'Una línea '
-
-Para posicionar el puntero justo al inicio de la segunda línea, podríamos ponerlo justo en la longitud de la primera:
-
-````python
-fichero = open('fichero.txt','r')
-fichero.seek(0)
-
-# Leemos la primera línea y situamos el puntero al principio de la segunda
-fichero.seek( len(fichero.readline()) )
-
-# Leemos todo lo que queda del puntero hasta el final
-fichero.read()
-````
-> '\nOtra línea con texto\nOtra línea más abajo del todo'
+Los que veremos en esta introducción a Tkinter son:
 
 
-## Lectura con escritura
-
-Se puede abrir un fichero en modo lectura con escritura, pero éste debe existir préviamente. Además por defecto el puntero estará al principio y si escribimos algo sobreescribiremos el contenido actual, así que prestad atención a los saltos de línea y caracteres especiales:
-
-````python
-# Creamos un fichero de prueba con 4 líneas
-fichero = open('fichero2.txt','w')
-texto = "Línea 1\nLínea 2\nLínea 3\nLínea 4"
-fichero.write(texto)
-fichero.close()
-
-# Lo abrimos en lectura con escritura y escribimos algo
-fichero = open('fichero2.txt','r+')
-fichero.write("0123456")
-
-# Volvemos a ponter el puntero al inicio y leemos hasta el final
-fichero.seek(0)
-fichero.read()
-fichero.close()
-````
-
-> '0123456\nLínea 2\nLínea 3\nLínea 4'
-
-## Modificar una línea
-
-Para lograr este fin lo mejor es leer todas las líneas en una lista, modificar la línea en la lista, posicionar el puntero al principio y reescribir de nuevo todas las líneas:
-
-````python
-fichero = open('fichero2.txt','r+')
-texto = fichero.readlines()
-
-# Modificamos la línea que queramos a partir del índice
-texto[2] = "Esta es la línea 3 modificada\n"
-
-# Volvemos a ponter el puntero al inicio y reescribimos
-fichero.seek(0)
-fichero.writelines(texto)
-fichero.close()
-
-# Leemos el fichero de nuevo
-with open("fichero2.txt", "r") as fichero:
-    print(fichero.read())
-````
-
->0123456
->
->Línea 2
->
->Esta es la línea 3 modificada
->
->Línea 4
+Tk: Contenedor base o raíz de todos los widgets que forman la interfaz. No tiene tamaño propio sino que se adapta a los widgets que contiene.
+Frame: Marco contenedor de otros widgets. Puede tener tamaño propio y posicionarse en distintos lugares de otro contenedor (ya sea la raíz u otro marco).
+Label: Etiqueta dónde podemos mostrar algún texto estático.
+Entry: Campo de texto sencillo para escribir texto corto. Nombres, apellidos, números..
+Text: Campo de texto multilínea para escribir texto largo. Descripciones, comentarios...
+Button: Botón con un texto sobre el cual el usuario puede hacer clic.
+Radiobutton: Botón radial que se usa en conjunto donde es posible marcar una opción.
+Checkbutton: Botón cuadrado que se puede marcar con un tic.
+Menu: Estructura de botones centrados en la composición de menús superiores.
+Dialogs: Ventanas emergentes que permiten desde mostrar información al usuario (típico mensaje de alerta o de confirmación) hasta ofrecer una forma gráfica de interactuar con el sistema operativo (seleccionar un fichero de un directorio para abrirlo).
