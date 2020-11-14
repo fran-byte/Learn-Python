@@ -87,7 +87,7 @@
 
 [42. FICHEROS de TEXTO](/documentation/texto.md)
 
-[42. Tkinter](/documentation/tkinter.md)
+[42. Tkinter (Interfaces Gráficas)](/documentation/tkinter.md)
 
 ## Python
 
