@@ -8,7 +8,11 @@ Las interfaces gráficas son medios visuales, mucho más cómodos que una termin
 ## Widgets
 El módulo **Tkinter** cuenta con una serie de componentes gráficos llamados Widgets, gracias a los cuales podemos diseñar nuestras interfaces.
 
-Los widgets deben seguir una jerarquía a la hora de añadirse a la interfaz. Por ejemplo, un Marco (frame) forma parte del objeto raíz Tk. Y a su vez, un botón (button) puede formar parte de un contenedor como la raíz o un marco.
+Los widgets deben seguir una jerarquía a la hora de añadirse a la interfaz.
+
+Por ejemplo, un Marco (frame) forma parte del objeto raíz Tk.
+
+Y a su vez, un botón (button) puede formar parte de un contenedor como la raíz o un marco.
 
 Los que veremos en esta introducción a Tkinter son:
 
