@@ -14,6 +14,7 @@ Por ejemplo, un Marco (frame) forma parte del objeto raíz Tk.
 
 Y a su vez, un botón (button) puede formar parte de un contenedor como la raíz o un marco.
 
+
 Los que veremos en esta introducción a Tkinter son:
 
 
