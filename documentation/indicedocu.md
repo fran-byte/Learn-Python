@@ -85,6 +85,8 @@
 
 [41. MÓDULO random](/documentation/random.md)
 
+[42. FICHEROS de TEXTO](/documentation/texto.md)
+
 ## Python
 
 + Wikipedia: [< continuar leyendo >](https://es.wikipedia.org/wiki/Python)
