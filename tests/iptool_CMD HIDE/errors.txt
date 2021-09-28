@@ -1,0 +1,1 @@
+some problems to solve, printing errors in the CMD that make the program unstable
