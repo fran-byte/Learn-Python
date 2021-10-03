@@ -33,8 +33,8 @@ value_list = ["0   -  Present Simple","1   -  Prepositions IN ON AT","2   -  Pre
               "53 -  LIKE Preposition vs LIKE Verb"]
 
 
-top_banner = [[sg.Text('Grammar Pills' + ' ' * 84, font='Any 20', background_color=DARK_HEADER_COLOR),
-               sg.Text('GGS', font='Any 20', background_color=DARK_HEADER_COLOR)]]
+top_banner = [[sg.Text('Grammar Pills' + ' ' * 76, font='Any 20', background_color=DARK_HEADER_COLOR),
+               sg.Text('By Romerof', font='Any 20', background_color=DARK_HEADER_COLOR)]]
 
 block_3 = [[sg.Text('Vocabulary', font='Any 20')],
            [sg.Input(size=(31, 1)), sg.Text('SEARCH')],
