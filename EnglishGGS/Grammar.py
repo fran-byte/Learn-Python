@@ -59,7 +59,7 @@ block_4 = [[sg.Image(key='-IMAGE-')]
            ]
 
 layout = [[sg.Column(top_banner, size=(960, 55), pad=(0, 0), background_color=DARK_HEADER_COLOR)],
-          [sg.Column([[sg.Column(block_2, size=(300, 369), pad=BPAD_LEFT_INSIDE)],
+          [sg.Column([[sg.Column(block_2, size=(300, 429), pad=BPAD_LEFT_INSIDE)],
                       [sg.Column(block_3, size=(300, 100), pad=BPAD_LEFT_INSIDE)],[sg.Output(size=(38, 2), key='-OUTPUT-')]], pad=BPAD_LEFT,
                      background_color=BORDER_COLOR),
            sg.Column(block_4, size=(623, 538), pad=BPAD_RIGHT)]]
@@ -192,11 +192,11 @@ while True:  # Event Loop
 
 
     elif event == 'English':
-        print(translator.translate(values[0], dest='en').text)
+        print(translator.translate(values[0], src='es', dest='en').text)
         window['-OUTPUT-'].update()
 
     elif event == 'Español':
-        print(translator.translate(values[0], dest='es').text)
+        print(translator.translate(values[0], src='en', dest='es').text)
         window['-OUTPUT-'].update()
 
 
