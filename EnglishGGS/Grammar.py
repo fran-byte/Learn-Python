@@ -1,4 +1,10 @@
 import PySimpleGUI as sg
+# Before:  pip install googletrans==3.1.0a0
+from googletrans import Translator
+import googletrans
+
+# Initial
+translator = googletrans.Translator()
 
 theme_dict = {'BACKGROUND': '#2B475D',
               'TEXT': '#FFFFFF',
@@ -36,9 +42,9 @@ value_list = ["0   -  Present Simple","1   -  Prepositions IN ON AT","2   -  Pre
 top_banner = [[sg.Text('Grammar Pills' + ' ' * 76, font='Any 20', background_color=DARK_HEADER_COLOR),
                sg.Text('By Romerof', font='Any 20', background_color=DARK_HEADER_COLOR)]]
 
-block_3 = [[sg.Text('Vocabulary', font='Any 20')],
-           [sg.Input(size=(31, 1)), sg.Text('SEARCH')],
-           [sg.Button('Go'), sg.Button('Exit')]]
+block_3 = [[sg.Text('Translator', font='Any 20')],
+           [sg.Input(size=(31, 1))],
+           [sg.Button('English'),sg.Button('Español'),sg.Button('Exit')]]
 
 block_2 = [[sg.Text('Grammar', font='Any 20')],
            [sg.Listbox(value_list, enable_events=True, key="-LISTBOX-", size=(38, 22)) ],
@@ -53,8 +59,8 @@ block_4 = [[sg.Image(key='-IMAGE-')]
            ]
 
 layout = [[sg.Column(top_banner, size=(960, 55), pad=(0, 0), background_color=DARK_HEADER_COLOR)],
-          [sg.Column([[sg.Column(block_2, size=(300, 427), pad=BPAD_LEFT_INSIDE)],
-                      [sg.Column(block_3, size=(300, 100), pad=BPAD_LEFT_INSIDE)]], pad=BPAD_LEFT,
+          [sg.Column([[sg.Column(block_2, size=(300, 369), pad=BPAD_LEFT_INSIDE)],
+                      [sg.Column(block_3, size=(300, 100), pad=BPAD_LEFT_INSIDE)],[sg.Output(size=(38, 2), key='-OUTPUT-')]], pad=BPAD_LEFT,
                      background_color=BORDER_COLOR),
            sg.Column(block_4, size=(623, 538), pad=BPAD_RIGHT)]]
 
@@ -75,114 +81,128 @@ while True:  # Event Loop
 
 
             if index == 0:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\present.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\present.png"))
             elif index == 1:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\prepositions.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\prepositions.png"))
             elif index == 2:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\prepositions place.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\prepositions place.png"))
             elif index == 3:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\time.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\time.png"))
             elif index == 4:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\date.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\date.png"))
             elif index == 5:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\ed.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\ed.png"))
             elif index == 6:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\present cont.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\present cont.png"))
             elif index == 7:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\do does.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\do does.png"))
             elif index == 8:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\this - that - these - those.png"))
-
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\this - that - these - those.png"))
             elif index == 9:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\q words.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\q words.png"))
             elif index == 10:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\a - an - some - any.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\a - an - some - any.png"))
             elif index == 11:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\very too.png"))
-
-
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\very too.png"))
             elif index == 12:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\too.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\too.png"))
             elif index == 13:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\so too.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\so too.png"))
             elif index == 14:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\adj ed ing.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\adj ed ing.png"))
             elif index == 15:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\adj.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\adj.png"))
             elif index == 16:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\was were.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\was were.png"))
             elif index == 17:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\do.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\do.png"))
             elif index == 18:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\do make.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\do make.png"))
             elif index == 19:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\much many.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\much many.png"))
             elif index == 20:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\how muchmany.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\how muchmany.png"))
             elif index == 21:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\past simple vs present perfect many.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\past simple vs present perfect many.png"))
             elif index == 22:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\few vs little.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\few vs little.png"))
             elif index == 23:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\Adv frec.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\Adv frec.png"))
             elif index == 24:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\how often.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\how often.png"))
             elif index == 25:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\Adv manner.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\Adv manner.png"))
             elif index == 26:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\will going to.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\will going to.png"))
             elif index == 27:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\still.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\still.png"))
             elif index == 28:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\yet.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\yet.png"))
             elif index == 29:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\already.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\already.png"))
             elif index == 30:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\conditionals_.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\conditionals_.png"))
             elif index == 31:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\conditional0.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\conditional0.png"))
             elif index == 32:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\conditional1.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\conditional1.png"))
             elif index == 33:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\conditional2.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\conditional2.png"))
             elif index == 34:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\conditional3.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\conditional3.png"))
             elif index == 35:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\for since.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\for since.png"))
             elif index == 36:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\like as.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\like as.png"))
             elif index == 37:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\all-every-each.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\all-every-each.png"))
             elif index == 38:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\another other others.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\another other others.png"))
             elif index == 39:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\both either neither.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\both either neither.png"))
             elif index == 40:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\modals.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\modals.png"))
             elif index == 41:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\can could.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\can could.png"))
             elif index == 42:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\may might.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\may might.png"))
             elif index == 43:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\must.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\must.png"))
             elif index == 44:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\mustnt.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\mustnt.png"))
             elif index == 45:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\shall.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\shall.png"))
             elif index == 46:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\will going to.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\will going to.png"))
             elif index == 47:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\should ought to.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\should ought to.png"))
             elif index == 48:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\use.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\use.png"))
             elif index == 49:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\past modals.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\past modals.png"))
             elif index == 50:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\tag.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\tag.png"))
             elif index == 51:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\positive tag.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\positive tag.png"))
             elif index == 52:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\negative tag.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\negative tag.png"))
             elif index == 53:
-                window["-IMAGE-"].update(filename=(r"C:\Users\franc\Documents\dashboard\like.png"))
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\like.png"))
+
+
+
+    elif event == 'English':
+        print(translator.translate(values[0], dest='en').text)
+        window['-OUTPUT-'].update()
+
+    elif event == 'Español':
+        print(translator.translate(values[0], dest='es').text)
+        window['-OUTPUT-'].update()
+
+
+
+
+
+
+
 window.close()
