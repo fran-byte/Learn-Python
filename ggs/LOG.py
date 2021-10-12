@@ -80,7 +80,8 @@ event, values = window.read()
 
 graph = window.Element("-GRAPH-")
 
-graph.DrawImage(filename="C:/Users/franc/Desktop/1.png", location=(1, 450))
+def bg():
+    graph.DrawImage(filename="C:/Users/franc/Desktop/1.png", location=(1, 450))
  
 
 
@@ -92,7 +93,7 @@ def circle_position(x,y,r):
 id = None
 
 while True:  # Event Loop
-    
+
 
     event, values = window.Read()
 
@@ -130,12 +131,14 @@ while True:  # Event Loop
 
           
             graph.Erase()
+            bg()
             circle_position(324,257,16)
-
+            
         if (values[0] == "1002") :
 
             
             graph.Erase()
+            bg()
             circle_position(342,303,16)
 
 
