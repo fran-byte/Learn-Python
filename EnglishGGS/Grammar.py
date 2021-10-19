@@ -36,18 +36,18 @@ value_list = ["0   -  Present Simple","1   -  Prepositions IN ON AT","2   -  Pre
               ,"35 -  For Vs Since","36 -  Like vs As","37 -  All - Every - Each","38 -  Another - Other - Others","39 -  Both - Either - Neither","40 -  MODALS VERBS","41 -      CAN - COULD",
               "42 -      MAY - MIGHT","43 -      MUST ( Must vs Have to )","44 -      MUSTN' T vs DON'T HAVE to","45 -      SHALL","46 -      WILL","47 -      SHOULD ( Should vs OUGHT To)"
               ,"48 -      USE to vs WOULD","49 -      PAST MODALS of DEDUCTION","50 -  QUESTION TAGS","51 -      POSITIVE Question Tags","52 -      NEGATIVE Question Tags",
-              "53 -  LIKE Preposition vs LIKE Verb"]
+              "53 -  LIKE Preposition vs LIKE Verb","54 -  Passive Voice"]
 
 
-top_banner = [[sg.Text('Grammar Pills' + ' ' * 76, font='Any 20', background_color=DARK_HEADER_COLOR),
+top_banner = [[sg.Text('Grammar Pills' + ' ' * 75, font='Any 20', background_color=DARK_HEADER_COLOR),
                sg.Text('By Romerof', font='Any 20', background_color=DARK_HEADER_COLOR)]]
 
 block_3 = [[sg.Text('Translator', font='Any 20')],
            [sg.Input(size=(31, 1))],
-           [sg.Button('English'),sg.Button('Español'),sg.Button('Exit')]]
+           [sg.Button('English'),sg.Button('Español')]]
 
 block_2 = [[sg.Text('Grammar', font='Any 20')],
-           [sg.Listbox(value_list, enable_events=True, key="-LISTBOX-", size=(38, 22)) ],
+           [sg.Listbox(value_list, enable_events=True, key="-LISTBOX-", size=(38, 18)) ],
             [sg.StatusBar("", size=(30, 1), key='-STATUS-')]
            ]
 
@@ -58,9 +58,9 @@ block_4 = [[sg.Image(key='-IMAGE-')]
 
            ]
 
-layout = [[sg.Column(top_banner, size=(960, 55), pad=(0, 0), background_color=DARK_HEADER_COLOR)],
-          [sg.Column([[sg.Column(block_2, size=(300, 429), pad=BPAD_LEFT_INSIDE)],
-                      [sg.Column(block_3, size=(300, 100), pad=BPAD_LEFT_INSIDE)],[sg.Output(size=(38, 2), key='-OUTPUT-')]], pad=BPAD_LEFT,
+layout = [[sg.Column(top_banner, size=(975, 55), pad=(0, 0), background_color=DARK_HEADER_COLOR)],
+          [sg.Column([[sg.Column(block_2, size=(329, 368), pad=BPAD_LEFT_INSIDE)],
+                      [sg.Column(block_3, size=(329, 100), pad=BPAD_LEFT_INSIDE)],[sg.Output(size=(38, 2), key='-OUTPUT-')]], pad=BPAD_LEFT,
                      background_color=BORDER_COLOR),
            sg.Column(block_4, size=(623, 538), pad=BPAD_RIGHT)]]
 
@@ -188,6 +188,8 @@ while True:  # Event Loop
                 window["-IMAGE-"].update(filename=(r"C:\dashboard\negative tag.png"))
             elif index == 53:
                 window["-IMAGE-"].update(filename=(r"C:\dashboard\like.png"))
+            elif index == 54:
+                window["-IMAGE-"].update(filename=(r"C:\dashboard\passive.png"))
 
 
 
