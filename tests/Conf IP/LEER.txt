@@ -1,0 +1,11 @@
+1-Debe de tener Python instalado en el PC
+
+2-Si su PC tiene algunas restricciones de Administrador debe de usar los dos archivos en la misma ubicación, el archivo "Lanzadera" (que es un simple acceso directo) y el programa ip2.py
+
+
+2.1-Vease que en PROPIEDADES del acceso directo ip2 el DESTINO fue modificado para entrar en el CMD como administrador y después lanzar el programa de python
+
+2.2-Donde se situa [romerof] debe de colocar su usuario, y evidentemente si cambia la ruta donde se encuentra el archivo ip2.py también deberá hacerlo
+
+Destino:
+C:\Windows\System32\cmd.exe /c start "%cd%" "C:\Users\romerof\Desktop\ip2.py"
