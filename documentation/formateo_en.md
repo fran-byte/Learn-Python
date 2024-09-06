@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README_en.md) :pencil: [Exercises](/tests/indicetests.md)
 
-#16. OUTPUTS (Formatting)
+# 16. OUTPUTS (Formatting)
 ## .format
 
 Often you'll need more control over formatting your output, or simply printing values ​​separated by
