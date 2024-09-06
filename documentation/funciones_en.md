@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README_en.md) :pencil: [Exercises](/tests/indicetests.md)
 
-#17. FUNCTIONS
+# 17. FUNCTIONS
 ## def name()
 
 They are blocks of code to which a name is associated, may or may not receive arguments as input, follows a sequence of statements performing a task and can be called as many times as necessary.
