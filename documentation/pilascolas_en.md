@@ -1,6 +1,8 @@
 :page_with_curl: [README](../README.md) : :pencil: [Exercises](/tests/indicetests.md) 
 
-# 13. DICTIONARIES {Key: Value} ## UNORDERED Collections It is a data structure that can contain any type of data: integers, strings, lists and even other functions.
+# 13. DICTIONARIES {Key: Value}
+
+## UNORDERED Collections It is a data structure that can contain any type of data: integers, strings, lists and even other functions.
 We can identify each element by a key (Key).
 
 ```python
@@ -20,7 +22,9 @@ YELLOW {'azul': 'blue', 'verde': 'green'}
 alta={'Paco ':196,'Luis':177,'Alvaro':159} print('The sum of the heights of Paco and Alvaro are ',high["Paco"]+high['Alvaro'],"Cm")  
 ```
 
->The sum of the heights of Paco and Alvaro are 355 Cm ### TRAVELING through the DICTIONARY ELEMENTS Showing both the keys and their values.
+>The sum of the heights of Paco and Alvaro are 355 Cm
+
+### TRAVELING through the DICTIONARY ELEMENTS Showing both the keys and their values.
 
 ```python
  height={'Paco':196,'Luis':177,'Alvaro':159} for key in height: print(key,height[key])
