@@ -1,11 +1,11 @@
 # <img src="mdArchives/py.png"/> Python 3 - Didactic Material and Exercises <img src="mdArchives/py.png"/>
 
 
-Este repositorio pretende ser una introdución a Python 3 basada en ejercicios y su correspondiente documentación.
-:page_with_curl: [README](../README.md)  :pencil: [Ejercicios](/tests/indicetests.md)
+This repository is intended to be an introduction to Python 3.
 
 
-# DOCUMENTACIÓN Pyhton 3
+
+# Didactic Material
 
 [01. MATEMÁTICAS](/documentation/mat.md)
 
