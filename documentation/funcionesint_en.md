@@ -30,7 +30,7 @@ print(c)
 ````
 >One text and two numbers 10 and 3.14
 >
-##bin()
+## bin()
 Integer to binary conversion:
 
 ````python
@@ -52,14 +52,14 @@ print(int('0b1010', 2))
 print(int('0xa', 16))
 ````
 
-##abs()
+## abs()
 Absolute value of a number (distance):
 
 ````python
 print(abs(-10))
 ````
 >10
-##round()
+## round()
 Rounding of a float to an integer, less than .5 downwards, greater than or equal to .5 upwards:
 
 ````python
@@ -68,7 +68,7 @@ print(round(5.4))
 ````
 >6
 >5
-##eval()
+## eval()
 Evaluates a string as an expression, accepting variables if they have been previously defined:
 ````python
 print(eval('2 + 5'))
@@ -81,7 +81,7 @@ print(eval('n * 10 - 5'))
 ````
 >95
 
-##len()
+## len()
 Length of a collection or chain:
 
 ````python
@@ -90,7 +90,7 @@ print(len([]))
 ````
 >10
 >0
-##help()
+## help()
 Invoke the Python interpreter help menu:
 
 ````python
