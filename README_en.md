@@ -4,7 +4,7 @@ This repository is intended to be an introduction to Python 3.
 
 # Learning Materials
 
-[01. MATHEMATICS](/documentation/mat_en.md)
+[01. MATHEMATICS](/documentation/math_en.md)
 
 [02. VARIABLES and DATA TYPES](/documentation/variable_en.md)
 
