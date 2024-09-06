@@ -1,4 +1,4 @@
-:page_with_curl: [README](../README.md) : :pencil: [Exercises](/tests/indicetests.md) 
+:page_with_curl: [README](../README_en.md) :pencil: [Exercises](/tests/indicetests.md) 
 
 # 13. DICTIONARIES {Key: Value}
 
@@ -51,7 +51,7 @@ for c,v in heights.items(): # we are going to dump the key in 'c' and the value 
 ### ADVANCED COLLECTIONS DICTIONARY + LIST
 We are going to create several dictionaries and introduce them in a list.
 ```python
- characters=[] # Create an empty list
+characters=[] # Create an empty list
 p={'Name':'Gandalf','Class':'Wizard','Race':'Human'} # Create a dictionary
 characters.append(p ) # Add that dictionary to the list (p)
 
