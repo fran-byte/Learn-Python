@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README_en.md) :pencil: [Exercises](/tests/indicetests.md)
 
-# 20. EXCEPTIONS try/except
+# 22. EXCEPTIONS try/except
 
 In order to continue with the execution of the program, there are these blocks of code, the exceptions.
 
