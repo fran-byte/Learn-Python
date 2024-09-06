@@ -1,4 +1,4 @@
-# <img src="mdArchives/py.png"/> Python 3 - Learning Materials and Exercises <img src="mdArchives/py.png"/>
+# <img src="mdArchives/py.png"/> Python 3 - Learning Materials and Exercises <img src="mdArchives/py.png"/>  [SPANISH - VERSION](README.md)
 
 This repository is intended to be an introduction to Python 3.
 
