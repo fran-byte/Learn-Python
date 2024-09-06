@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README_en.md) :pencil: [Exercises](/tests/indicetests.md)
 
-#18. FUNCTIONS II
+# 18. FUNCTIONS II
 Sometimes we don't know the number of elements we are going to send to a function.
 
 For these cases we will use the indeterminate parameters by position and by name.
