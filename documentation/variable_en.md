@@ -4,7 +4,7 @@
 
 
 
-#2- VARIABLES and DATA TYPES
+# 2- VARIABLES and DATA TYPES
 
 ## Defining a variable
 
