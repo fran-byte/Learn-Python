@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README.md)  :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 20. EXCEPCIONES MULTIPLES
+# 23. EXCEPCIONES MULTIPLES
 
 Si ocurrieran varios errores diferentes, nos convendría actuar de forma diferente en cada caso.
 
