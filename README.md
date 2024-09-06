@@ -1,4 +1,4 @@
-# <img src="mdArchives/py.png"/> Python 3 - Materiales didácticos y ejercicios   [ENGLISH - VERSION](README_en.md)
+# <img src="mdArchives/py.png"/> Python 3 - Material didácticos  [ENGLISH - VERSION](README_en.md)
 
 
 Este repositorio pretende ser una introdución a Python 3.
