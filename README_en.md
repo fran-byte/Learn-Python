@@ -26,9 +26,9 @@ This repository is intended to be an introduction to Python 3.
 
 [11. TUPLAS](/documentation/tuplas_en.md) 
 
-[12. SETS](/documentation/sets_en.md) 
+[12. SETS](/documentation/conjuntos_en.md) 
 
-[13. DICTIONARIES](/documentation/dictionaries_en.md) 
+[13. DICTIONARIES](/documentation/diccionarios_en.md) 
 
 [14. Pilas (LIFO) and QUEUES (FIFO)](/documentation/pilascolas_en.md) 
 
