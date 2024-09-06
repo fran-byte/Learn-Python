@@ -1,4 +1,4 @@
-:page_with_curl: [README](../README.md) :pencil: [Exercises](/tests/indicetests.md)
+:page_with_curl: [README](../README_en.md) :pencil: [Exercises](/tests/indicetests.md)
 
 # 4. TEXT FILES
 
