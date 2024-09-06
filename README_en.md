@@ -24,7 +24,7 @@ This repository is intended to be an introduction to Python 3.
 
 [10. for (We continue iterating)](/documentation/for2_en.md) 
 
-[11. TUPLAS](/documentation/tuplas.md) 
+[11. TUPLAS](/documentation/tuplas_en.md) 
 
 [12. SETS](/documentation/sets_en.md) 
 
