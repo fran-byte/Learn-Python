@@ -1,24 +1,12 @@
-:page_with_curl: [README](../README_en.md)  :pencil: [Ejercicios](/tests/indicetests.md)
+:page_with_curl: [README](../README_en.md) :pencil: [Exercises](/tests/indicetests.md)
 
-# 11. TUPLAS () 
-## Colección de Datos INMUTABLE
+# 11. TUPLES ()
+## IMMUTABLE Data Collection
 
-Aceptan todo los parámetros al igual que las listas, menos los que impliquen modificación.
-
-````python
-tupla1 = (100,"hola",[1,2,3,4])
-print(tupla1.count(100))   # (count) nos devolverá el número de veces que aparece el número 100
-                    # dentro de esta tupla.
-````
->1
-
-Si intentamos modificar una Tupla (que es INMUTABLE):
+They accept all parameters just like lists, except those that imply modification.
 
 ````python
-tupla1 = (100,"hola",100,[1,2,3,4])
-tupla1[0]=50
-````
->Traceback (most recent call last):  
-  File "main.py", line 2, in <module>  
-    tupla1[0]=50  
-TypeError: 'tuple' object **does not support item assignment**
+tuple1 = (100,"hello",[1,2,3,4])
+print(tuple1.count(100)) # (count) will return the number of times the number 100 appears
+# within this tuple.
+```` >1 If we try to modify a Tuple (which is IMMUTABLE): ````python tuple1 = (100,"hello",100,[1,2,3,4]) tuple1[0]=50 ```` >Traceback (most recent call last): File "main.py", line 2, in <module> tuple1[0]=50 TypeError: 'tuple' object **does not support item assignment**
