@@ -1,52 +1,52 @@
 :page_with_curl: [README](../README_en.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 20. ERRORES
+# 20. ERRORS
 
-La detención de un programa se debe a errores, explicamos algunos tipos:
+The stopping of a program is due to errors, we explain some types:
 
-## Sintaxis
+## Syntax
 
-Nos reportan código **SyntaxError**, simplemente repasando el código poderemos dar con la resolución:
+They report **SyntaxError** code, simply by reviewing the code we will be able to find the resolution:
 ````python
 print("Python"
 ````
->  File "main.py", line 2
+> File "main.py", line 2
 
                   ^
 >SyntaxError: unexpected EOF while parsing
 >
-## Nombre
-Se producen cuando el sistema interpreta que debe ejecutar alguna función, método... 
+## Name
+They occur when the system interprets that it must execute some function, method... 
 
-pero no lo encuentra definido. Devuelven el código **NameError**:
+but he does not find it defined. They return **NameError** code:
 
 
 
 > <ipython-input-2-155163d628c2> in <module>()
-> ----> 1 pint("Hola")
+> ----> 1 pint("Hello")
 
 >NameError: name 'pint' is not defined
 
-Normalmente estos errores sintácticos y de nombre son identificados por cualquier editor de código antes de la ejecución, 
+Normally these syntax and name errors are identified by any code editor before execution, 
 
 
-## Semántico
-Son muy difíciles de detectar ya que son errores de funcionamiento.
+## Semantic
+They are very difficult to detect since they are operating errors.
 
 ````python
-lista1=[]
-lista1.pop() # No podemos sacar ningún elemento de una lista vacía
+list1=[]
+list1.pop() # We cannot pop any element from an empty list
 ````
 >Traceback (most recent call last):
->  File "main.py", line 2, in <module>
->    lista1.pop() # No podemos sacar ningún elemento de una lista vacíaIndexError: pop from empty list
+> File "main.py", line 2, in <module>
+> list1.pop() # We cannot pop any element from an empty listIndexError: pop from empty list
 
 
-si queremos evitar este error habría que comprobar si está vacía primero:
+If we want to avoid this error we would have to check if it is empty first:
 
 ````python
-lista1 = []
+list1 = []
 
-if len(lista1) > 0:
-    lista1.pop()
+if len(list1) > 0:
+    list1.pop()
 ````
