@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 20. EXCEPCIONES try / except
+# 22. EXCEPCIONES try / except
 
 Para poder continuar con la ejecución del programa existen estos bloques de código, las excepciones.
 
