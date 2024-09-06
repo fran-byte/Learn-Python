@@ -1,6 +1,6 @@
-:page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
+:page_with_curl: [README](../README.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 20. INVOCANDO EXCEPCIONES
+# 24. INVOCANDO EXCEPCIONES
 
 Podemos llamar un error manualmente.
 ````python
