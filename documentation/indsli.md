@@ -1,7 +1,7 @@
-:page_with_curl: [README](../README.md) :books: [Material didáctico](/documentation/indicedocu.md) :pencil: [Ejercicios](/tests/indicetests.md)
+:page_with_curl: [README](../README.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
 
-# 42. FICHEROS de TEXTO
+# 4. FICHEROS de TEXTO
 
 En la siguiente cadena de texto, podemos identificar cada caracter mediante un índice.
 ````python
