@@ -1,7 +1,7 @@
 :page_with_curl: [README](../README_en.md) :pencil: [Exercises](/tests/indicetests.md)
 
 # 14. STACK(LIFO) and QUEUE(FIFO)
-## PILAS = Last In First Out, .append() .pop()
+## STACK = Last In First Out, .append() .pop()
 
 There are no STACK in Python, so the best solution to create this abstract STACK would be to create an object using a class,
 but we will see that later.
