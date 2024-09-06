@@ -30,7 +30,7 @@ This repository is intended to be an introduction to Python 3.
 
 [13. DICTIONARIES](/documentation/diccionarios_en.md) 
 
-[14. Pilas (LIFO) and QUEUES (FIFO)](/documentation/pilascolas_en.md) 
+[14. STACK (LIFO) and QUEUES (FIFO)](/documentation/pilascolas_en.md) 
 
 [15. SCRIPTS](/documentation/entradas_en.md) 
 
