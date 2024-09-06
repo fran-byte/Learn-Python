@@ -45,7 +45,7 @@ b = "days!"
 sumStrings = a + " " + b
 print (sumStrings)
 ````
-## Guy. Booleans
+## Type. Booleans
 It can only admit True or False. Used in conditions and loops, which we will see later.
 True/False
 ````python
@@ -56,7 +56,7 @@ true
 
 
 
-## Guy. Numbers
+## Type. Numbers
 ### Integers:
 
 They are the Numbers that lack decimals
@@ -79,13 +79,13 @@ n = 3.8 + 9j
 
  
 
-## Guy. Sets {}
+## Type. Sets {}
 Collection of data without repeated elements, unordered and separated by commas, enclosed in braces.
 `````python
 set = {'house', 'tree', 'dog',356,'dumpling',-89,'mango', 'cheese'}
 `````
 
-## Guys. Lists [ ]
+## Type. Lists [ ]
 They are ordered sets of elements that can store numbers, strings, other lists...
 They are placed between ([ ]) and the elements are separated by commas.
 
@@ -97,13 +97,13 @@ print(list2)
 `````
  
 
-## Guy. Tuples ()
+## Type. Tuples ()
 It is an **immutable** list
 `````python
 tuple1 = ("bird",34,"9",clock)
 `````
 
-## Guys. Dictionaries { : }
+## Type. Dictionaries { : }
 We can store any type of value such as integers, strings, lists and even other functions.
 And we can identify each element by a key (Key).
 `````python
