@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README_en.md) :pencil: [Exercises](/tests/indicetests.md)
 
-#15. Inputs from the SCRIPTS terminal 
+# 15. Inputs from the SCRIPTS terminal 
 ## import sys / sys.argv
 
 Not everything is going to be writing code in the interpreter, 
