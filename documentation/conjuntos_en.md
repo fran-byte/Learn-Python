@@ -1,4 +1,4 @@
-:page_with_curl: [README](../README_en.md) :books: [Teaching material](/documentation/indicedocu.md) :pencil: [Exercises](/tests/indicetests.md)
+:page_with_curl: [README](../README_en.md)  :pencil: [Exercises](/tests/indicetests.md)
 
 # 12. SETS { }
 ## UNORDERED collection of UNIQUE elements
