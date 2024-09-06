@@ -1,5 +1,5 @@
 
-:page_with_curl: [README](../README_en.md)  :pencil: [Ejercicios](/tests/indicetests.md)
+:page_with_curl: [README](../README_en.md)  :pencil: [Exercises](/tests/indicetests.md)
 
 
 
