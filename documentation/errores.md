@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 20. ERRORES
+# 21. ERRORES
 
 La detención de un programa se debe a errores, explicamos algunos tipos:
 
