@@ -37,7 +37,7 @@ type(hola)
 # Definición de clase
 La sintaxis es muy sencilla:
 ````python
-lass Galleta:
+pass Galleta:
     pass
 ````
 Esta es una definición muy simple de lo que es una galleta, ya que con el pass la dejo vacía. Luego añadiremos más información, por ahora veamos como crear galletas con este molde.
