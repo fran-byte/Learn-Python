@@ -1,6 +1,6 @@
 :page_with_curl: [README](../README_en.md) :pencil: [Ejercicios](/tests/indicetests.md)
 
-# 20. ERRORS
+# 21. ERRORS
 
 The stopping of a program is due to errors, we explain some types:
 
